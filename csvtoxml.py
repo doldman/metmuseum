@@ -13,8 +13,8 @@ w = open('newmetsample.xml','a',encoding='utf8')
 w.write
 
 myreader = csv.reader(f,delimiter=',')
-
-
+print(r'<?xml version="1.0" encoding="UTF-8"?>')
+print('<metmuseum>',end="\n",file=w)
 for row in myreader:
     if row[0] != "﻿Object Number":
 
@@ -32,6 +32,66 @@ for row in myreader:
         print('\t<Dynasty>'+row[9].strip()+'</Dynasty>',end="\n",file=w)
         print('\t<Reign>'+row[10].strip()+'</Reign>',end="\n",file=w)
         print('\t<Portfolio>'+row[11].strip()+'</Portfolio>',end="\n",file=w)
+
+        artistrole1 = []
+        artistrole2 = []
+        artistprefix1 = []
+        artistprefix2 = []
+        artistdisplayname1 = []
+        artistdisplayname2 = []
+        artistbio1 = []
+        artistbio2 = []
+        artistnationality1 = []
+        artistnationality2 = []
+        artiststartdate1 = []
+        artiststartdate2 = []
+        artistenddate1 = []
+        artistenddate2 = []
+
+        myartistrole = row[12].strip()
+        if '|' in myartistrole:
+
+            myartists = myartistrole.split('|')
+            artistrole1.add(myartists[0])
+            artistrole2.add(myartists[1])
+
+        myartistprefix = row[13].strip()
+        if '|' in myartistprefix:
+            myartists = myartistprefix.split('|')
+            artistprefix1.add(myartists[0])
+            artistprefix2.add(myartists[1])
+
+        myartistdisplayname = row[14].strip()
+        if '|' in myartistdisplayname:
+            myartists = myartistdisplayname.split('|')
+            artistdisplayname1.add(myartists[0])
+            artistdisplayname2.add(myartists[1])
+
+        myartistbio = row[15].strip()
+        if '|' in myartistbio:
+            myartists = myartistbio.split('|')
+            artistbio1.add(myartists[0])
+            artistbio2.add(myartists[1])
+
+        myartistnationality = row[16].strip()
+        if '|' in myartistnationality:
+            myartists = myartistnationality.split('|')
+            artistnationality1.add(myartists[0])
+            artistnationality2.add(myartists[1])
+
+        myartiststartdate = row[17].strip()
+        if '|' in myartiststartdate:
+            myartists = myartiststartdate.split('|')
+            artiststartdate1.add(myartists[0])
+            artiststartdate2.add(myartists[1])
+
+        myartistenddate = row[18].strip()
+        if '|' in myartiststartdate:
+            myartists = myartiststartdate.split('|')
+            artistenddate1.add(myartists[0])
+            artistenddate2.add(myartists[1])
+
+
         print('\t<ArtistRole>'+row[12].strip()+'</ArtistRole>',end="\n",file=w)
         print('\t<ArtistPrefix>'+row[13].strip()+'</ArtistPrefix>',end="\n",file=w)
         print('\t<ArtistDisplayName>'+row[14].strip()+'</ArtistDisplayName>',end="\n",file=w)
@@ -231,7 +291,7 @@ for row in myreader:
 
                 print('\t\t</DimensionsSet>', end="\n", file=w)
 
-        print('\t</DimensionsFeature>', end="\n", file=w)
+            print('\t</DimensionsFeature>', end="\n", file=w)
 
 
         print('\t<CreditLine>'+row[26].strip()+'</CreditLine>',end="\n",file=w)
@@ -264,7 +324,7 @@ for row in myreader:
 
        # print(row[25].strip())
 
-
+print('</metmuseum>',end="\n",file=w)
 
 f.close()
 w.close()
