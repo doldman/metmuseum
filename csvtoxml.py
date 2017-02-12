@@ -21,7 +21,7 @@ for row in myreader:
 
         print('<metobject>',end="\n",file=w)
         print('\t<object_no>'+row[0].strip()+'</object_no>',end="\n",file=w)
-        print('\t<IsHighlight>'+row[1].strip()+'</is_highlight>',end="\n",file=w)
+        print('\t<IsHighlight>'+row[1].strip()+'</IsHighlight>',end="\n",file=w)
         print('\t<IsPublicDomain>'+row[2] +'</IsPublicDomain>',end="\n",file=w)
         print('\t<ObjectID>'+row[3].strip()+'</ObjectID>',end="\n",file=w)
         print('\t<Department>'+row[4].strip()+'</Department>',end="\n",file=w)
@@ -44,7 +44,21 @@ for row in myreader:
         print('\t<ObjectDate>'+row[21].strip()+'</ObjectDate>',end="\n",file=w)
         print('\t<ObjectBeginDate>'+row[22].strip()+'</ObjectBeginDate>',end="\n",file=w)
         print('\t<ObjectEndDate>'+row[23].strip()+'</ObjectEndDate>',end="\n",file=w)
-        print('\t<Medium>'+row[24].strip()+'</Medium>',end="\n",file=w)
+
+        temp = row[24].replace(' or ', ',')
+        temp = temp.replace('and ', ',')
+        #temp = temp.replace()
+        mymateriallist = temp.split(',')
+
+
+
+        for item in mymateriallist:
+            print('\t<Medium>'+item.strip()+'</Medium>',end="\n",file=w)
+
+
+
+
+
 
         m1 = re.search(r'(Diam). *(\d*\/\d*) *(in). *\((\d*.*\d) *(cm)\)', row[25].strip())
         m2 = re.search(r'(^H\.).*(\d.*) *(in). *\((\d*.*\d) *(cm)\)', row[25].strip())
@@ -248,7 +262,7 @@ for row in myreader:
 #            print(m1.group(1), m1.group(2), m1.group(3), m1.group(4), m1.group(5))
 
 
-        print(row[25].strip())
+       # print(row[25].strip())
 
 
 
