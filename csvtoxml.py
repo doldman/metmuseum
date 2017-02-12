@@ -48,6 +48,7 @@ for row in myreader:
         artistenddate1 = []
         artistenddate2 = []
 
+
         myartistrole = row[12].strip()
         if '|' in myartistrole:
 
