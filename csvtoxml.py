@@ -49,48 +49,48 @@ for row in myreader:
         artistenddate2 = []
 
 
-        myartistrole = row[12].strip()
-        if '|' in myartistrole:
-
-            myartists = myartistrole.split('|')
-            artistrole1.add(myartists[0])
-            artistrole2.add(myartists[1])
-
-        myartistprefix = row[13].strip()
-        if '|' in myartistprefix:
-            myartists = myartistprefix.split('|')
-            artistprefix1.add(myartists[0])
-            artistprefix2.add(myartists[1])
-
-        myartistdisplayname = row[14].strip()
-        if '|' in myartistdisplayname:
-            myartists = myartistdisplayname.split('|')
-            artistdisplayname1.add(myartists[0])
-            artistdisplayname2.add(myartists[1])
-
-        myartistbio = row[15].strip()
-        if '|' in myartistbio:
-            myartists = myartistbio.split('|')
-            artistbio1.add(myartists[0])
-            artistbio2.add(myartists[1])
-
-        myartistnationality = row[16].strip()
-        if '|' in myartistnationality:
-            myartists = myartistnationality.split('|')
-            artistnationality1.add(myartists[0])
-            artistnationality2.add(myartists[1])
-
-        myartiststartdate = row[17].strip()
-        if '|' in myartiststartdate:
-            myartists = myartiststartdate.split('|')
-            artiststartdate1.add(myartists[0])
-            artiststartdate2.add(myartists[1])
-
-        myartistenddate = row[18].strip()
-        if '|' in myartiststartdate:
-            myartists = myartiststartdate.split('|')
-            artistenddate1.add(myartists[0])
-            artistenddate2.add(myartists[1])
+        # myartistrole = row[12].strip()
+        # if '|' in myartistrole:
+        #
+        #     myartists = myartistrole.split('|')
+        #     artistrole1.add(myartists[0])
+        #     artistrole2.add(myartists[1])
+        #
+        # myartistprefix = row[13].strip()
+        # if '|' in myartistprefix:
+        #     myartists = myartistprefix.split('|')
+        #     artistprefix1.add(myartists[0])
+        #     artistprefix2.add(myartists[1])
+        #
+        # myartistdisplayname = row[14].strip()
+        # if '|' in myartistdisplayname:
+        #     myartists = myartistdisplayname.split('|')
+        #     artistdisplayname1.add(myartists[0])
+        #     artistdisplayname2.add(myartists[1])
+        #
+        # myartistbio = row[15].strip()
+        # if '|' in myartistbio:
+        #     myartists = myartistbio.split('|')
+        #     artistbio1.add(myartists[0])
+        #     artistbio2.add(myartists[1])
+        #
+        # myartistnationality = row[16].strip()
+        # if '|' in myartistnationality:
+        #     myartists = myartistnationality.split('|')
+        #     artistnationality1.add(myartists[0])
+        #     artistnationality2.add(myartists[1])
+        #
+        # myartiststartdate = row[17].strip()
+        # if '|' in myartiststartdate:
+        #     myartists = myartiststartdate.split('|')
+        #     artiststartdate1.add(myartists[0])
+        #     artiststartdate2.add(myartists[1])
+        #
+        # myartistenddate = row[18].strip()
+        # if '|' in myartiststartdate:
+        #     myartists = myartiststartdate.split('|')
+        #     artistenddate1.add(myartists[0])
+        #     artistenddate2.add(myartists[1])
 
 
         print('\t<ArtistRole>'+row[12].strip()+'</ArtistRole>',end="\n",file=w)
@@ -323,7 +323,7 @@ for row in myreader:
 #            print(m1.group(1), m1.group(2), m1.group(3), m1.group(4), m1.group(5))
 
 
-       # print(row[25].strip())
+        print(row[25].strip())
 
 print('</metmuseum>',end="\n",file=w)
 
@@ -332,3 +332,4 @@ w.close()
 
 
 
+#(.*)(?<=\:)\s([^x]+)x\s([^x]+)x\s(\d[^in]+)(in)([^\(]+).?(\d[^x]+)x\s([^x]+)x\s(\d[^ cm]+) (cm)\);\s\d[^oz]+
