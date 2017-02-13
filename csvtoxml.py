@@ -124,7 +124,7 @@ for row in myreader:
         m1 = re.search(r'(Diam). *(\d*\/\d*) *(in). *\((\d*.*\d) *(cm)\)', row[25].strip())
         m2 = re.search(r'(^H\.).*(\d.*) *(in). *\((\d*.*\d) *(cm)\)', row[25].strip())
         m3 = re.search(r'(^\d.*) x (\d.*) x (\d.*) (in).*\((\d.*) x (\d.*) x (\d.*)(cm)\)', row[25].strip())
-        m4 = re.search(r'([a-zA-z]*):(.*)x(.*)x(.*)(in).*\((.*)x(.*)x(.*)(cm)\).* (\d.*) (oz)\. (\d*).*(dwt).*\((\d.*)(g)\)', row[25].strip())
+        m4 = re.search(r'(?P<label>\w*):\s(?P<first>.*?)\sx\s(?P<second>.*?)?\sx\s(?P<third>.*?)?\s(?P<units>\w*?\.?)\s\((?P<first_metric>\d*\.?\d*)\sx\s(?P<second_metric>\d*\.?\d*)?\sx\s(?P<third_metric>\d*\.?\d*)?\s(?P<metric_unit>\w*)\);\s(?P<imp_weight1>\d*\.?\d*)\s(?P<imp_weight_unit_1>\w*\.?)\s(?P<imp_weight2>\d*\.?\d*)\s(?P<imp_weight_unit_2>\w*\.?)\s\((?P<metric_weight>\d*)\s(?P<metric_weight_unit>\w*)', row[25].strip())
         m5 = re.search(r'([a-zA-z]*):.*(H).*(\d.*) *(in). *\((\d*.*\d) *(cm)\)', row[25].strip())
         m6 = re.search(r'([a-zA-z]*):(.*)x(.*)x(.*)(in).*\((.*)x(.*)x(.*)(cm)\).* (\d.*) (oz)\. (\d*).*(dwt).*\((\d.*)(g)\)', row[25].strip())
 
@@ -333,3 +333,4 @@ w.close()
 
 
 #(.*)(?<=\:)\s([^x]+)x\s([^x]+)x\s(\d[^in]+)(in)([^\(]+).?(\d[^x]+)x\s([^x]+)x\s(\d[^ cm]+) (cm)\);\s\d[^oz]+
+\w*:\s[^x]+x\s[^x]+x\s[^in]+\w*
