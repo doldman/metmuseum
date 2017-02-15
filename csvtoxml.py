@@ -92,7 +92,7 @@ for row in myreader:
         #     artistenddate1.add(myartists[0])
         #     artistenddate2.add(myartists[1])
 
-
+#
         print('\t<ArtistRole>'+row[12].strip()+'</ArtistRole>',end="\n",file=w)
         print('\t<ArtistPrefix>'+row[13].strip()+'</ArtistPrefix>',end="\n",file=w)
         print('\t<ArtistDisplayName>'+row[14].strip()+'</ArtistDisplayName>',end="\n",file=w)
