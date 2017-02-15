@@ -335,4 +335,4 @@ w.close()
 #(.*)(?<=\:)\s([^x]+)x\s([^x]+)x\s(\d[^in]+)(in)([^\(]+).?(\d[^x]+)x\s([^x]+)x\s(\d[^ cm]+) (cm)\);\s\d[^oz]+
 \w*:\s[^x]+x\s[^x]+x\s[^in]+\w*
 
-dd
+ddddd
