@@ -1,6 +1,7 @@
+<metmuseum>
 <metobject>
 	<object_no>1979.486.1</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>1</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -24,7 +25,6 @@
 	<ObjectBeginDate>1853</ObjectBeginDate>
 	<ObjectEndDate>1853</ObjectEndDate>
 	<Medium>Gold</Medium>
-	</DimensionsFeature>
 	<CreditLine>Gift of Heinz L. Stoppelmann, 1979</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -45,7 +45,7 @@
 </metobject>
 <metobject>
 	<object_no>1980.264.5</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>2</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -69,7 +69,6 @@
 	<ObjectBeginDate>1901</ObjectBeginDate>
 	<ObjectEndDate>1901</ObjectEndDate>
 	<Medium>Gold</Medium>
-	</DimensionsFeature>
 	<CreditLine>Gift of Heinz L. Stoppelmann, 1980</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -90,7 +89,7 @@
 </metobject>
 <metobject>
 	<object_no>67.265.9</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>3</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -126,7 +125,6 @@
 			<dimensionvalue>11/16</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of C. Ruxton Love, Jr., 1967</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -147,7 +145,7 @@
 </metobject>
 <metobject>
 	<object_no>67.265.10</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>4</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -183,7 +181,6 @@
 			<dimensionvalue>11/16</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of C. Ruxton Love, Jr., 1967</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -204,7 +201,7 @@
 </metobject>
 <metobject>
 	<object_no>67.265.11</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>5</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -240,7 +237,6 @@
 			<dimensionvalue>11/16</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of C. Ruxton Love, Jr., 1967</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -261,7 +257,7 @@
 </metobject>
 <metobject>
 	<object_no>67.265.12</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>6</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -297,7 +293,6 @@
 			<dimensionvalue>11/16</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of C. Ruxton Love, Jr., 1967</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -318,7 +313,7 @@
 </metobject>
 <metobject>
 	<object_no>67.265.13</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>7</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -354,7 +349,6 @@
 			<dimensionvalue>11/16</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of C. Ruxton Love, Jr., 1967</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -375,7 +369,7 @@
 </metobject>
 <metobject>
 	<object_no>67.265.14</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>8</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -411,7 +405,6 @@
 			<dimensionvalue>11/16</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of C. Ruxton Love, Jr., 1967</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -432,7 +425,7 @@
 </metobject>
 <metobject>
 	<object_no>67.265.15</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>9</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -468,7 +461,6 @@
 			<dimensionvalue>11/16</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of C. Ruxton Love, Jr., 1967</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -489,7 +481,7 @@
 </metobject>
 <metobject>
 	<object_no>1979.486.3</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>10</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -513,7 +505,6 @@
 	<ObjectBeginDate>1912</ObjectBeginDate>
 	<ObjectEndDate>1912</ObjectEndDate>
 	<Medium>Gold</Medium>
-	</DimensionsFeature>
 	<CreditLine>Gift of Heinz L. Stoppelmann, 1979</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -534,7 +525,7 @@
 </metobject>
 <metobject>
 	<object_no>1979.486.2</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>11</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -558,7 +549,6 @@
 	<ObjectBeginDate>1907</ObjectBeginDate>
 	<ObjectEndDate>1907</ObjectEndDate>
 	<Medium>Gold</Medium>
-	</DimensionsFeature>
 	<CreditLine>Gift of Heinz L. Stoppelmann, 1979</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -579,7 +569,7 @@
 </metobject>
 <metobject>
 	<object_no>1979.486.7</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>12</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -603,7 +593,6 @@
 	<ObjectBeginDate>1876</ObjectBeginDate>
 	<ObjectEndDate>1876</ObjectEndDate>
 	<Medium>Gold</Medium>
-	</DimensionsFeature>
 	<CreditLine>Gift of Heinz L. Stoppelmann, 1979</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -624,7 +613,7 @@
 </metobject>
 <metobject>
 	<object_no>1979.486.4</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>13</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -648,7 +637,6 @@
 	<ObjectBeginDate>1910</ObjectBeginDate>
 	<ObjectEndDate>1910</ObjectEndDate>
 	<Medium>Gold</Medium>
-	</DimensionsFeature>
 	<CreditLine>Gift of Heinz L. Stoppelmann, 1979</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -669,7 +657,7 @@
 </metobject>
 <metobject>
 	<object_no>1979.486.5</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>14</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -693,7 +681,6 @@
 	<ObjectBeginDate>1907</ObjectBeginDate>
 	<ObjectEndDate>1907</ObjectEndDate>
 	<Medium>Gold</Medium>
-	</DimensionsFeature>
 	<CreditLine>Gift of Heinz L. Stoppelmann, 1979</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -714,7 +701,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.49</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>15</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -750,7 +737,6 @@
 			<dimensionvalue>1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -771,7 +757,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.27</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>16</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -794,8 +780,8 @@
 	<ObjectDate>1800–1900</ObjectDate>
 	<ObjectBeginDate>1800</ObjectBeginDate>
 	<ObjectEndDate>1900</ObjectEndDate>
-	<Medium>Bronze or copper</Medium>
-	</DimensionsFeature>
+	<Medium>Bronze</Medium>
+	<Medium>copper</Medium>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -816,7 +802,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.28</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>17</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -839,8 +825,8 @@
 	<ObjectDate>1867</ObjectDate>
 	<ObjectBeginDate>1867</ObjectBeginDate>
 	<ObjectEndDate>1867</ObjectEndDate>
-	<Medium>Bronze or copper</Medium>
-	</DimensionsFeature>
+	<Medium>Bronze</Medium>
+	<Medium>copper</Medium>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -861,7 +847,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.29</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>18</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -884,8 +870,8 @@
 	<ObjectDate>1860</ObjectDate>
 	<ObjectBeginDate>1860</ObjectBeginDate>
 	<ObjectEndDate>1860</ObjectEndDate>
-	<Medium>Bronze or copper</Medium>
-	</DimensionsFeature>
+	<Medium>Bronze</Medium>
+	<Medium>copper</Medium>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -906,7 +892,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.30</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>19</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -929,8 +915,8 @@
 	<ObjectDate>1859</ObjectDate>
 	<ObjectBeginDate>1859</ObjectBeginDate>
 	<ObjectEndDate>1859</ObjectEndDate>
-	<Medium>Bronze or copper</Medium>
-	</DimensionsFeature>
+	<Medium>Bronze</Medium>
+	<Medium>copper</Medium>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -951,7 +937,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.31</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>20</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -974,8 +960,8 @@
 	<ObjectDate>1860</ObjectDate>
 	<ObjectBeginDate>1860</ObjectBeginDate>
 	<ObjectEndDate>1860</ObjectEndDate>
-	<Medium>Bronze or copper</Medium>
-	</DimensionsFeature>
+	<Medium>Bronze</Medium>
+	<Medium>copper</Medium>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -996,7 +982,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.32</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>21</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1019,8 +1005,8 @@
 	<ObjectDate>1859</ObjectDate>
 	<ObjectBeginDate>1859</ObjectBeginDate>
 	<ObjectEndDate>1859</ObjectEndDate>
-	<Medium>Bronze or copper</Medium>
-	</DimensionsFeature>
+	<Medium>Bronze</Medium>
+	<Medium>copper</Medium>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1041,7 +1027,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.43</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>22</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1077,7 +1063,6 @@
 			<dimensionvalue>1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1098,7 +1083,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.44</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>23</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1134,7 +1119,6 @@
 			<dimensionvalue>1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1155,7 +1139,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.33</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>24</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1191,7 +1175,6 @@
 			<dimensionvalue>3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1212,7 +1195,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.34</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>25</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1248,7 +1231,6 @@
 			<dimensionvalue>3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1269,7 +1251,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.35</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>26</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1305,7 +1287,6 @@
 			<dimensionvalue>3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1326,7 +1307,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.36</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>27</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1362,7 +1343,6 @@
 			<dimensionvalue>3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1383,7 +1363,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.38</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>28</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1419,7 +1399,6 @@
 			<dimensionvalue>3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1440,7 +1419,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.39</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>29</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1476,7 +1455,6 @@
 			<dimensionvalue>3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1497,7 +1475,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.37</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>30</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1533,7 +1511,6 @@
 			<dimensionvalue>3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1554,7 +1531,7 @@
 </metobject>
 <metobject>
 	<object_no>16.74.40</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>31</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1590,7 +1567,6 @@
 			<dimensionvalue>3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1916</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1611,7 +1587,7 @@
 </metobject>
 <metobject>
 	<object_no>09.9.15</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>32</ObjectID>
 	<Department>American Paintings and Sculpture</Department>
@@ -1635,7 +1611,6 @@
 	<ObjectBeginDate>1866</ObjectBeginDate>
 	<ObjectEndDate>1866</ObjectEndDate>
 	<Medium>Gold</Medium>
-	</DimensionsFeature>
 	<CreditLine>Gift of H. R. Ickelheimer, 1909</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -1656,7 +1631,7 @@
 </metobject>
 <metobject>
 	<object_no>64.62</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>33</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -1714,7 +1689,6 @@
 			<dimensionvalue>2 3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Teunis G. B. Cortelyou, 1964</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>Philadelphia</City>
@@ -1735,7 +1709,7 @@
 </metobject>
 <metobject>
 	<object_no>1970.289.6</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>34</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -1758,7 +1732,8 @@
 	<ObjectDate>1847–50</ObjectDate>
 	<ObjectBeginDate>1847</ObjectBeginDate>
 	<ObjectEndDate>1850</ObjectEndDate>
-	<Medium>Mahogany, laminated</Medium>
+	<Medium>Mahogany</Medium>
+	<Medium>laminated</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -1793,7 +1768,6 @@
 			<dimensionvalue>5 1/8</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Paul Moore, 1970</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>Bristol</City>
@@ -1814,7 +1788,7 @@
 </metobject>
 <metobject>
 	<object_no>04.1a–c</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>35</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -1837,7 +1811,15 @@
 	<ObjectDate>1893–95</ObjectDate>
 	<ObjectBeginDate>1893</ObjectBeginDate>
 	<ObjectEndDate>1895</ObjectEndDate>
-	<Medium>Gold, amethysts, spessartites, tourmalines, fresh water pearls, quartzes, rock crystal, and enamel</Medium>
+	<Medium>Gold</Medium>
+	<Medium>amethysts</Medium>
+	<Medium>spessartites</Medium>
+	<Medium>tourmalines</Medium>
+	<Medium>fresh water pearls</Medium>
+	<Medium>quartzes</Medium>
+	<Medium>rock crystal</Medium>
+	<Medium></Medium>
+	<Medium>enamel</Medium>
 	<DimensionsFeature>
 	<feature>Body</feature>
 		<DimensionsSet>
@@ -1910,7 +1892,7 @@
 </metobject>
 <metobject>
 	<object_no>1976.319</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>36</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -1933,7 +1915,8 @@
 	<ObjectDate>ca. 1887</ObjectDate>
 	<ObjectBeginDate>1884</ObjectBeginDate>
 	<ObjectEndDate>1887</ObjectEndDate>
-	<Medium>Oak, tulip poplar</Medium>
+	<Medium>Oak</Medium>
+	<Medium>tulip poplar</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -1968,7 +1951,6 @@
 			<dimensionvalue>34 1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Charlotte Pickman-Gertz, 1976</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>Lebanon</City>
@@ -1989,7 +1971,7 @@
 </metobject>
 <metobject>
 	<object_no>38.165.51</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>37</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2012,7 +1994,8 @@
 	<ObjectDate>ca. 1785</ObjectDate>
 	<ObjectBeginDate>1782</ObjectBeginDate>
 	<ObjectEndDate>1785</ObjectEndDate>
-	<Medium>Earthenware, basalt</Medium>
+	<Medium>Earthenware</Medium>
+	<Medium>basalt</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -2025,7 +2008,6 @@
 			<dimensionvalue>2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Harris Brisbane Dick Fund, 1938</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -2046,7 +2028,7 @@
 </metobject>
 <metobject>
 	<object_no>38.165.50</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>38</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2069,7 +2051,8 @@
 	<ObjectDate>ca. 1785</ObjectDate>
 	<ObjectBeginDate>1782</ObjectBeginDate>
 	<ObjectEndDate>1785</ObjectEndDate>
-	<Medium>Earthenware, basalt</Medium>
+	<Medium>Earthenware</Medium>
+	<Medium>basalt</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -2082,7 +2065,6 @@
 			<dimensionvalue>8</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Harris Brisbane Dick Fund, 1938</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -2103,7 +2085,7 @@
 </metobject>
 <metobject>
 	<object_no>18.11.10</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>39</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2127,7 +2109,6 @@
 	<ObjectBeginDate>1770</ObjectBeginDate>
 	<ObjectEndDate>1800</ObjectEndDate>
 	<Medium>Paper</Medium>
-	</DimensionsFeature>
 	<CreditLine>Rogers Fund, 1918</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>Norwich</City>
@@ -2148,7 +2129,7 @@
 </metobject>
 <metobject>
 	<object_no>46.140.143</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>40</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2184,7 +2165,6 @@
 			<dimensionvalue>3</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Emily Winthrop Miles, 1946</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>East Cambridge</City>
@@ -2205,7 +2185,7 @@
 </metobject>
 <metobject>
 	<object_no>46.140.864</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>41</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2241,7 +2221,6 @@
 			<dimensionvalue>6</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Emily Winthrop Miles, 1946</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>Somerville</City>
@@ -2262,7 +2241,7 @@
 </metobject>
 <metobject>
 	<object_no>60.58.1</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>42</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2285,7 +2264,8 @@
 	<ObjectDate>1795–1810</ObjectDate>
 	<ObjectBeginDate>1795</ObjectBeginDate>
 	<ObjectEndDate>1810</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -2320,7 +2300,6 @@
 			<dimensionvalue>13 7/8</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Sansbury-Mills Fund, 1960</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>New York</City>
@@ -2341,7 +2320,7 @@
 </metobject>
 <metobject>
 	<object_no>60.58.2</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>43</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2364,7 +2343,8 @@
 	<ObjectDate>1795–1810</ObjectDate>
 	<ObjectBeginDate>1795</ObjectBeginDate>
 	<ObjectEndDate>1810</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -2399,7 +2379,6 @@
 			<dimensionvalue>13 7/8</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Sansbury-Mills Fund, 1960</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>New York</City>
@@ -2420,7 +2399,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.444a</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>44</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2456,7 +2435,6 @@
 			<dimensionvalue>7</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -2477,7 +2455,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.444b</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>45</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2513,7 +2491,6 @@
 			<dimensionvalue>7</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -2534,7 +2511,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.445a</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>46</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2570,7 +2547,6 @@
 			<dimensionvalue>6</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -2591,7 +2567,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.445b</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>47</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2627,7 +2603,6 @@
 			<dimensionvalue>6</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -2648,7 +2623,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.446a</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>48</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2684,7 +2659,6 @@
 			<dimensionvalue>7</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -2705,7 +2679,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.446b</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>49</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2741,7 +2715,6 @@
 			<dimensionvalue>7</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -2762,7 +2735,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.447a</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>50</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2798,7 +2771,6 @@
 			<dimensionvalue>2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -2819,7 +2791,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.447b</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>51</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2855,7 +2827,6 @@
 			<dimensionvalue>2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -2876,7 +2847,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.452a</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>52</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2912,7 +2883,6 @@
 			<dimensionvalue>2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -2933,7 +2903,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.452b</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>53</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -2969,7 +2939,6 @@
 			<dimensionvalue>2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -2990,7 +2959,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.454a</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>56</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3026,7 +2995,6 @@
 			<dimensionvalue>3</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3047,7 +3015,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.454b</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>57</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3083,7 +3051,6 @@
 			<dimensionvalue>3</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3104,7 +3071,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.499a</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>58</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3140,7 +3107,6 @@
 			<dimensionvalue>6</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3161,7 +3127,7 @@
 </metobject>
 <metobject>
 	<object_no>10.125.499b</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>59</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3197,7 +3163,6 @@
 			<dimensionvalue>6</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Russell Sage, 1909</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3218,7 +3183,7 @@
 </metobject>
 <metobject>
 	<object_no>22.120.1</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>62</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3242,7 +3207,6 @@
 	<ObjectBeginDate>1797</ObjectBeginDate>
 	<ObjectEndDate>1800</ObjectEndDate>
 	<Medium>Brass</Medium>
-	</DimensionsFeature>
 	<CreditLine>Rogers Fund, 1922</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3263,7 +3227,7 @@
 </metobject>
 <metobject>
 	<object_no>22.120.2</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>63</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3287,7 +3251,6 @@
 	<ObjectBeginDate>1797</ObjectBeginDate>
 	<ObjectEndDate>1800</ObjectEndDate>
 	<Medium>Brass</Medium>
-	</DimensionsFeature>
 	<CreditLine>Rogers Fund, 1922</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3308,7 +3271,7 @@
 </metobject>
 <metobject>
 	<object_no>23.80.14</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>64</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3331,7 +3294,8 @@
 	<ObjectDate>1795–1810</ObjectDate>
 	<ObjectBeginDate>1795</ObjectBeginDate>
 	<ObjectEndDate>1810</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -3366,7 +3330,6 @@
 			<dimensionvalue>13 1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mr. and Mrs. William A. Moore, 1923</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>New York</City>
@@ -3387,7 +3350,7 @@
 </metobject>
 <metobject>
 	<object_no>23.80.15</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>65</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3410,7 +3373,8 @@
 	<ObjectDate>1795–1810</ObjectDate>
 	<ObjectBeginDate>1795</ObjectBeginDate>
 	<ObjectEndDate>1810</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -3445,7 +3409,6 @@
 			<dimensionvalue>13 1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mr. and Mrs. William A. Moore, 1923</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>New York</City>
@@ -3466,7 +3429,7 @@
 </metobject>
 <metobject>
 	<object_no>30.120.83</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>68</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3489,7 +3452,8 @@
 	<ObjectDate>1760–80</ObjectDate>
 	<ObjectBeginDate>1760</ObjectBeginDate>
 	<ObjectEndDate>1780</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -3502,7 +3466,6 @@
 			<dimensionvalue>2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>The Sylmaris Collection, Gift of George Coe Graves, 1930</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3523,7 +3486,7 @@
 </metobject>
 <metobject>
 	<object_no>30.120.84</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>69</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3546,7 +3509,8 @@
 	<ObjectDate>1760–80</ObjectDate>
 	<ObjectBeginDate>1760</ObjectBeginDate>
 	<ObjectEndDate>1780</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -3559,7 +3523,6 @@
 			<dimensionvalue>2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>The Sylmaris Collection, Gift of George Coe Graves, 1930</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3580,7 +3543,7 @@
 </metobject>
 <metobject>
 	<object_no>34.90.1</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>70</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3603,7 +3566,8 @@
 	<ObjectDate>1750–65</ObjectDate>
 	<ObjectBeginDate>1750</ObjectBeginDate>
 	<ObjectEndDate>1765</ObjectEndDate>
-	<Medium>Bell metal, possibly iron</Medium>
+	<Medium>Bell metal</Medium>
+	<Medium>possibly iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -3638,7 +3602,6 @@
 			<dimensionvalue>13 1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Rogers Fund, 1934</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3659,7 +3622,7 @@
 </metobject>
 <metobject>
 	<object_no>34.90.2</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>71</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3682,7 +3645,8 @@
 	<ObjectDate>1750–65</ObjectDate>
 	<ObjectBeginDate>1750</ObjectBeginDate>
 	<ObjectEndDate>1765</ObjectEndDate>
-	<Medium>Bell metal, possibly iron</Medium>
+	<Medium>Bell metal</Medium>
+	<Medium>possibly iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -3717,7 +3681,6 @@
 			<dimensionvalue>13 1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Rogers Fund, 1934</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3738,7 +3701,7 @@
 </metobject>
 <metobject>
 	<object_no>36.31.1</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>72</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3761,7 +3724,8 @@
 	<ObjectDate>1750–80</ObjectDate>
 	<ObjectBeginDate>1750</ObjectBeginDate>
 	<ObjectEndDate>1780</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -3796,7 +3760,6 @@
 			<dimensionvalue>13 1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Morris K. Jesup Fund, 1936</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>Philadelphia</City>
@@ -3817,7 +3780,7 @@
 </metobject>
 <metobject>
 	<object_no>36.31.2</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>73</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3840,7 +3803,8 @@
 	<ObjectDate>1750–80</ObjectDate>
 	<ObjectBeginDate>1750</ObjectBeginDate>
 	<ObjectEndDate>1780</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -3875,7 +3839,6 @@
 			<dimensionvalue>13 1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Morris K. Jesup Fund, 1936</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>Philadelphia</City>
@@ -3896,7 +3859,7 @@
 </metobject>
 <metobject>
 	<object_no>37.15.1</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>74</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3920,7 +3883,6 @@
 	<ObjectBeginDate>1770</ObjectBeginDate>
 	<ObjectEndDate>1800</ObjectEndDate>
 	<Medium>Iron</Medium>
-	</DimensionsFeature>
 	<CreditLine>Purchase, The Sylmaris Collection, Gift of George Coe Graves, by exchange, 1937</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3941,7 +3903,7 @@
 </metobject>
 <metobject>
 	<object_no>37.15.2</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>75</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -3965,7 +3927,6 @@
 	<ObjectBeginDate>1770</ObjectBeginDate>
 	<ObjectEndDate>1800</ObjectEndDate>
 	<Medium>Iron</Medium>
-	</DimensionsFeature>
 	<CreditLine>Purchase, The Sylmaris Collection, Gift of George Coe Graves, by exchange, 1937</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -3986,7 +3947,7 @@
 </metobject>
 <metobject>
 	<object_no>37.46.1</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>76</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4009,8 +3970,8 @@
 	<ObjectDate>1740–60</ObjectDate>
 	<ObjectBeginDate>1740</ObjectBeginDate>
 	<ObjectEndDate>1760</ObjectEndDate>
-	<Medium>Iron, brass</Medium>
-	</DimensionsFeature>
+	<Medium>Iron</Medium>
+	<Medium>brass</Medium>
 	<CreditLine>Rogers Fund, 1937</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -4031,7 +3992,7 @@
 </metobject>
 <metobject>
 	<object_no>37.46.2</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>77</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4054,8 +4015,8 @@
 	<ObjectDate>1740–60</ObjectDate>
 	<ObjectBeginDate>1740</ObjectBeginDate>
 	<ObjectEndDate>1760</ObjectEndDate>
-	<Medium>Iron, brass</Medium>
-	</DimensionsFeature>
+	<Medium>Iron</Medium>
+	<Medium>brass</Medium>
 	<CreditLine>Rogers Fund, 1937</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -4076,7 +4037,7 @@
 </metobject>
 <metobject>
 	<object_no>37.174.1</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>78</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4099,8 +4060,8 @@
 	<ObjectDate>ca. 1700</ObjectDate>
 	<ObjectBeginDate>1697</ObjectBeginDate>
 	<ObjectEndDate>1700</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
-	</DimensionsFeature>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<CreditLine>Rogers Fund, 1937</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -4121,7 +4082,7 @@
 </metobject>
 <metobject>
 	<object_no>37.174.2</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>79</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4144,8 +4105,8 @@
 	<ObjectDate>ca. 1700</ObjectDate>
 	<ObjectBeginDate>1697</ObjectBeginDate>
 	<ObjectEndDate>1700</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
-	</DimensionsFeature>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<CreditLine>Rogers Fund, 1937</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City></City>
@@ -4166,7 +4127,7 @@
 </metobject>
 <metobject>
 	<object_no>39.184.46</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>80</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4189,7 +4150,8 @@
 	<ObjectDate>1760–80</ObjectDate>
 	<ObjectBeginDate>1760</ObjectBeginDate>
 	<ObjectEndDate>1780</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -4224,7 +4186,6 @@
 			<dimensionvalue>13 1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of James DeLancey Verplanck and John Bayard Rodgers Verplanck,  1939</CreditLine>
 	<GeographyType>Probably made in</GeographyType>
 	<City>New York</City>
@@ -4245,7 +4206,7 @@
 </metobject>
 <metobject>
 	<object_no>39.184.47</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>81</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4268,7 +4229,8 @@
 	<ObjectDate>1760–80</ObjectDate>
 	<ObjectBeginDate>1760</ObjectBeginDate>
 	<ObjectEndDate>1780</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -4303,7 +4265,6 @@
 			<dimensionvalue>13 1/2</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of James DeLancey Verplanck and John Bayard Rodgers Verplanck,  1939</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -4324,7 +4285,7 @@
 </metobject>
 <metobject>
 	<object_no>41.160.340</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>84</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4382,7 +4343,6 @@
 			<dimensionvalue>8 1/8</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Bequest of W. Gedney Beatty, 1941</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -4403,7 +4363,7 @@
 </metobject>
 <metobject>
 	<object_no>41.160.341</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>85</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4461,7 +4421,6 @@
 			<dimensionvalue>8 1/8</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Bequest of W. Gedney Beatty, 1941</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -4482,7 +4441,7 @@
 </metobject>
 <metobject>
 	<object_no>41.160.344</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>86</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4540,7 +4499,6 @@
 			<dimensionvalue>11 3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Bequest of W. Gedney Beatty, 1941</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -4561,7 +4519,7 @@
 </metobject>
 <metobject>
 	<object_no>41.160.345</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>87</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4619,7 +4577,6 @@
 			<dimensionvalue>11 3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Bequest of W. Gedney Beatty, 1941</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -4640,7 +4597,7 @@
 </metobject>
 <metobject>
 	<object_no>41.160.346</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>88</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4698,7 +4655,6 @@
 			<dimensionvalue>11 3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Bequest of W. Gedney Beatty, 1941</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -4719,7 +4675,7 @@
 </metobject>
 <metobject>
 	<object_no>41.160.347</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>89</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4777,7 +4733,6 @@
 			<dimensionvalue>11 3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Bequest of W. Gedney Beatty, 1941</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -4798,7 +4753,7 @@
 </metobject>
 <metobject>
 	<object_no>41.160.372</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>90</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4822,7 +4777,6 @@
 	<ObjectBeginDate>1770</ObjectBeginDate>
 	<ObjectEndDate>1830</ObjectEndDate>
 	<Medium>Brass</Medium>
-	</DimensionsFeature>
 	<CreditLine>Bequest of W. Gedney Beatty, 1941</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -4843,7 +4797,7 @@
 </metobject>
 <metobject>
 	<object_no>41.160.373</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>91</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4867,7 +4821,6 @@
 	<ObjectBeginDate>1770</ObjectBeginDate>
 	<ObjectEndDate>1830</ObjectEndDate>
 	<Medium>Brass</Medium>
-	</DimensionsFeature>
 	<CreditLine>Bequest of W. Gedney Beatty, 1941</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -4888,7 +4841,7 @@
 </metobject>
 <metobject>
 	<object_no>46.67.126</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>92</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4911,8 +4864,8 @@
 	<ObjectDate>1795–1815</ObjectDate>
 	<ObjectBeginDate>1795</ObjectBeginDate>
 	<ObjectEndDate>1815</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
-	</DimensionsFeature>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<CreditLine>Gift of the Members of the Committee of the Bertha King Benkard Memorial Fund, 1946</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>New York</City>
@@ -4933,7 +4886,7 @@
 </metobject>
 <metobject>
 	<object_no>46.67.127</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>93</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -4956,8 +4909,8 @@
 	<ObjectDate>1795–1815</ObjectDate>
 	<ObjectBeginDate>1795</ObjectBeginDate>
 	<ObjectEndDate>1815</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
-	</DimensionsFeature>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<CreditLine>Gift of the Members of the Committee of the Bertha King Benkard Memorial Fund, 1946</CreditLine>
 	<GeographyType>Made in</GeographyType>
 	<City>New York</City>
@@ -4978,7 +4931,7 @@
 </metobject>
 <metobject>
 	<object_no>47.137.1</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>94</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5002,7 +4955,6 @@
 	<ObjectBeginDate>1700</ObjectBeginDate>
 	<ObjectEndDate>1800</ObjectEndDate>
 	<Medium>Iron</Medium>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. J. Insley Blair, 1947</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -5023,7 +4975,7 @@
 </metobject>
 <metobject>
 	<object_no>47.137.2</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>95</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5047,7 +4999,6 @@
 	<ObjectBeginDate>1700</ObjectBeginDate>
 	<ObjectEndDate>1800</ObjectEndDate>
 	<Medium>Iron</Medium>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. J. Insley Blair, 1947</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -5068,7 +5019,7 @@
 </metobject>
 <metobject>
 	<object_no>48.135.107</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>96</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5091,8 +5042,8 @@
 	<ObjectDate>1700–1800</ObjectDate>
 	<ObjectBeginDate>1700</ObjectBeginDate>
 	<ObjectEndDate>1800</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
-	</DimensionsFeature>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<CreditLine>Bequest of Adeline R. Brown, 1947</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -5113,7 +5064,7 @@
 </metobject>
 <metobject>
 	<object_no>48.135.108</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>97</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5136,8 +5087,8 @@
 	<ObjectDate>1700–1800</ObjectDate>
 	<ObjectBeginDate>1700</ObjectBeginDate>
 	<ObjectEndDate>1800</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
-	</DimensionsFeature>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<CreditLine>Bequest of Adeline R. Brown, 1947</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -5158,7 +5109,7 @@
 </metobject>
 <metobject>
 	<object_no>48.158.2</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>98</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5181,7 +5132,8 @@
 	<ObjectDate>1800–1900</ObjectDate>
 	<ObjectBeginDate>1800</ObjectBeginDate>
 	<ObjectEndDate>1900</ObjectEndDate>
-	<Medium>Brass, steel</Medium>
+	<Medium>Brass</Medium>
+	<Medium>steel</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -5216,7 +5168,6 @@
 			<dimensionvalue>12</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. J. Insley Blair, 1948</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -5237,7 +5188,7 @@
 </metobject>
 <metobject>
 	<object_no>48.158.3</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>False</IsPublicDomain>
 	<ObjectID>99</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5260,7 +5211,8 @@
 	<ObjectDate>1800–1900</ObjectDate>
 	<ObjectBeginDate>1800</ObjectBeginDate>
 	<ObjectEndDate>1900</ObjectEndDate>
-	<Medium>Brass, steel</Medium>
+	<Medium>Brass</Medium>
+	<Medium>steel</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -5295,7 +5247,6 @@
 			<dimensionvalue>12</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. J. Insley Blair, 1948</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -5316,7 +5267,7 @@
 </metobject>
 <metobject>
 	<object_no>49.73.4</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>100</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5374,7 +5325,6 @@
 			<dimensionvalue>10 3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. J. Insley Blair, 1949</CreditLine>
 	<GeographyType>Possibly made in|Possibly made in</GeographyType>
 	<City></City>
@@ -5395,7 +5345,7 @@
 </metobject>
 <metobject>
 	<object_no>49.73.5</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>101</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5453,7 +5403,6 @@
 			<dimensionvalue>10 3/4</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. J. Insley Blair, 1949</CreditLine>
 	<GeographyType>Possibly made in|Possibly made in</GeographyType>
 	<City></City>
@@ -5474,7 +5423,7 @@
 </metobject>
 <metobject>
 	<object_no>1971.180.62a</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>102</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5497,7 +5446,8 @@
 	<ObjectDate>1790–1820</ObjectDate>
 	<ObjectBeginDate>1790</ObjectBeginDate>
 	<ObjectEndDate>1820</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -5532,7 +5482,6 @@
 			<dimensionvalue>13</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Bequest of Flora E. Whiting, 1971</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -5553,7 +5502,7 @@
 </metobject>
 <metobject>
 	<object_no>1971.180.62b</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>103</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5576,7 +5525,8 @@
 	<ObjectDate>1790–1820</ObjectDate>
 	<ObjectBeginDate>1790</ObjectBeginDate>
 	<ObjectEndDate>1820</ObjectEndDate>
-	<Medium>Brass, iron</Medium>
+	<Medium>Brass</Medium>
+	<Medium>iron</Medium>
 	<DimensionSet>
 		<Dimension>
 			<dimensiontype>Height</dimensiontype>
@@ -5611,7 +5561,6 @@
 			<dimensionvalue>13</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Bequest of Flora E. Whiting, 1971</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -5632,7 +5581,7 @@
 </metobject>
 <metobject>
 	<object_no>1980.499.4</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>104</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5690,7 +5639,6 @@
 			<dimensionvalue>16</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Eleanor G. Sargent, 1980</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -5711,7 +5659,7 @@
 </metobject>
 <metobject>
 	<object_no>1980.499.5</object_no>
-	<IsHighlight>False</is_highlight>
+	<IsHighlight>False</IsHighlight>
 	<IsPublicDomain>True</IsPublicDomain>
 	<ObjectID>105</ObjectID>
 	<Department>American Decorative Arts</Department>
@@ -5769,7 +5717,6 @@
 			<dimensionvalue>16</dimensionvalue>
 		</Dimension>
 	</DimensionSet>
-	</DimensionsFeature>
 	<CreditLine>Gift of Mrs. Eleanor G. Sargent, 1980</CreditLine>
 	<GeographyType></GeographyType>
 	<City></City>
@@ -5788,3 +5735,4 @@
 	<MetadataDate>2/6/2017 8:00:16 AM</MetadataDate>
 	<Repository>Metropolitan Museum of Art, New York, NY</Repository>
 </metobject>
+</metmuseum>
