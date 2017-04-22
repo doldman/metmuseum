@@ -3,10 +3,11 @@
 
 import csv
 import re
+from lxml import etree as ET
+from bs4 import BeautifulSoup
 
 
-
-f = open('problem1.csv','r',encoding='utf8')
+f = open('HokusaiMetObjects.csv','r',encoding='utf8')
 w = open('newmetsample.xml','w',encoding='utf8')
 w.close()
 w = open('newmetsample.xml','a',encoding='utf8')
@@ -29,13 +30,13 @@ for row in myreader:
         print('\t<Department>'+row[4].strip()+'</Department>',end="\n",file=w)
         print('\t<ObjectName>'+row[5].strip()+'</ObjectName>',end="\n",file=w)
 
-        print('<metobject>',end="\n",file=w)
-        print('\t<object_no>'+row[0].strip()+'</object_no>',end="\n",file=w)
-        print('\t<IsHighlight>'+row[1].strip()+'</IsHighlight>',end="\n",file=w)
-        print('\t<IsPublicDomain>'+row[2].strip() +'</IsPublicDomain>',end="\n",file=w)
-        print('\t<ObjectID>'+row[3].strip()+'</ObjectID>',end="\n",file=w)
-        print('\t<Department>'+row[4].strip()+'</Department>',end="\n",file=w)
-        print('\t<ObjectName>'+row[5].strip()+'</ObjectName>',end="\n",file=w)
+        # print('<metobject>',end="\n",file=w)
+        # print('\t<object_no>'+row[0].strip()+'</object_no>',end="\n",file=w)
+        # print('\t<IsHighlight>'+row[1].strip()+'</IsHighlight>',end="\n",file=w)
+        # print('\t<IsPublicDomain>'+row[2].strip() +'</IsPublicDomain>',end="\n",file=w)
+        # print('\t<ObjectID>'+row[3].strip()+'</ObjectID>',end="\n",file=w)
+        # print('\t<Department>'+row[4].strip()+'</Department>',end="\n",file=w)
+        # print('\t<ObjectName>'+row[5].strip()+'</ObjectName>',end="\n",file=w)
 
         myfirstsection = '<metobject>\n\t<object_no>'+row[0].strip()+'</object_no>\n\t<IsHighlight>'+row[1].strip()+'</IsHighlight>\n\t<IsPublicDomain>'+row[2].strip()+'</IsPublicDomain>\n\t<ObjectID>'+row[3].strip()+'</ObjectID>\n\t<Department>'+row[4].strip()+'</Department>\n\t<ObjectName>'+row[5].strip()+'</ObjectName>\n'
 
@@ -152,7 +153,7 @@ for row in myreader:
         m4 = re.search(r'(\w*):\s([^x]+)\sx\s([^x]+)x\s([^in]+)(in).\s\(([^x]+)x\s([^x]+)x\s([^cm]+)(cm)\);\s([^oz]+)(oz).\s([^dwt]+)(dwt).\s\(([^g]+)\s(g)\)', row[25].strip())  #label with 3 dim
         m4a = re.search(r'(\w*):\s([^x]+)\sx\s([^in]+)(in).\s\(([^x]+)x\s([^cm]+)(cm)\);\s([^oz]+)(oz).\s([^dwt]+)(dwt).\s\(([^g]+)\s(g)\)',row[25].strip()) #label with 2 dim
         m5 = re.search(r'(;)([^\:]+):\s(H)\.\s([^in]+)(in).\s\(([^cm]+)(cm)\)', row[25].strip())
-
+        m6 = re.search(r'^(?P<heightin>.*?)(x)(?P<widthin>.*?)(in).*?\((?P<heightcm>.*?)(x)(?P<widthcm>.*?)(?P<centimeters>cm)\)$',row[25].strip())
 
 
 
@@ -441,7 +442,10 @@ for row in myreader:
             if len(m5.groups()) == 7 and xnumber == 0:
                 print(row[25].strip())
 
-
+        if m6:
+            xnumber = m6.string.count(" x ")
+            if len(m6.groups()) == 8 and xnumber == 2:
+                print()
 
 
         print('\t<CreditLine>'+row[26].strip()+'</CreditLine>',end="\n",file=w)
@@ -589,6 +593,8 @@ w = open('newmetsample.xml','r',encoding='utf8')
 y = open('metsamplevalidation.xml','w',encoding='utf8')
 y.close()
 y = open('metsamplevalidation.xml','a',encoding='utf8')
+
+
 
 
 for line in w:
