@@ -108,8 +108,8 @@ def DateNormalise(parent, element_header, value):
         #print('m2 - hit: ' + value)
 
     elif m3:
-        element_header = element_header.replace(" ", "_")
-        if
+         element_header = element_header.replace(" ", "_")
+
 
 
 
@@ -117,46 +117,48 @@ def DateNormalise(parent, element_header, value):
         print('miss: ' + element_header + ' ' + value)
 
 
-def CreateDimensions(heightIn,heightCm,widthIn,widthCm,field,parent):
+def CreateDimensions(dvalue,dunit,dtype,prefix=''):
 
     global count
 
-    dimensions = ET.SubElement(parent, str(field))  # an element to include all dimensions
+    dimension = ET.Element('dimension')  # element for first doimension set
+    value = ET.SubElement(dimension, 'value')  # the dimnension value
+    value.text = dvalue.strip()
+    type = ET.SubElement(dimension, 'type')  # the dimension type
+    type.text = str(prefix) + ' ' + dtype  # height
+    unit = ET.SubElement(dimension, 'unit')  # the dimension unit
+    unit.text = dunit  # inches
 
-    dimension1 = ET.SubElement(dimensions, 'dimension')  # element for first doimension set
-    heightin = ET.SubElement(dimension1, 'value')  # the dimnension value
-    heightin.text = heightIn.strip()
-    type = ET.SubElement(dimension1, 'type')  # the dimension type
-    type.text = 'height'  # height
-    unit = ET.SubElement(dimension1, 'unit')  # the dimension unit
-    unit.text = 'inches'  # inches
 
-    dimension2 = ET.SubElement(dimensions, 'dimension')  # element for second dimension set
-    widthin = ET.SubElement(dimension2, 'value')
-    widthin.text = widthIn.strip()
-    type = ET.SubElement(dimension2, 'type')  # the dimension type
-    type.text = 'width'  # height
-    unit = ET.SubElement(dimension2, 'unit')  # the dimension unit
-    unit.text = 'inches'  # inches
+    return(dimension)
 
-    dimension3 = ET.SubElement(dimensions, 'dimension')  # element for second dimension set
-    widthin = ET.SubElement(dimension3, 'value')
-    widthin.text = heightCm.strip()
-    type = ET.SubElement(dimension3, 'type')  # the dimension type
-    type.text = 'height'  # height
-    unit = ET.SubElement(dimension3, 'unit')  # the dimension unit
-    unit.text = 'centimeters'  # centimeters
 
-    dimension4 = ET.SubElement(dimensions, 'dimension')  # element for second dimension set
-    widthin = ET.SubElement(dimension4, 'value')
-    widthin.text = widthCm.strip()
-    type = ET.SubElement(dimension4, 'type')  # the dimension type
-    type.text = 'width'  # height
-    unit = ET.SubElement(dimension4, 'unit')  # the dimension unit
-    unit.text = 'centimeters'  # centimeters
-
-    # print('m1 - hit: ' + value)
-    count += 1
+    # dimension2 = ET.SubElement(dimensions, 'dimension')  # element for second dimension set
+    # widthin = ET.SubElement(dimension2, 'value')
+    # widthin.text = widthIn.strip()
+    # type = ET.SubElement(dimension2, 'type')  # the dimension type
+    # type.text = 'width'  # height
+    # unit = ET.SubElement(dimension2, 'unit')  # the dimension unit
+    # unit.text = 'inches'  # inches
+    #
+    # dimension3 = ET.SubElement(dimensions, 'dimension')  # element for second dimension set
+    # widthin = ET.SubElement(dimension3, 'value')
+    # widthin.text = heightCm.strip()
+    # type = ET.SubElement(dimension3, 'type')  # the dimension type
+    # type.text = 'height'  # height
+    # unit = ET.SubElement(dimension3, 'unit')  # the dimension unit
+    # unit.text = 'centimeters'  # centimeters
+    #
+    # dimension4 = ET.SubElement(dimensions, 'dimension')  # element for second dimension set
+    # widthin = ET.SubElement(dimension4, 'value')
+    # widthin.text = widthCm.strip()
+    # type = ET.SubElement(dimension4, 'type')  # the dimension type
+    # type.text = 'width'  # height
+    # unit = ET.SubElement(dimension4, 'unit')  # the dimension unit
+    # unit.text = 'centimeters'  # centimeters
+    #
+    # # print('m1 - hit: ' + value)
+    # count += 1
 
 
 
@@ -175,6 +177,7 @@ def DimensionNormalise(parent, element_header, value):
     widthcentimeters = ''
 
     fieldname = element_header.replace(" ", "_")
+    dimensions = ET.Element(str(fieldname))  # an element to include all dimensions
 
 
     m1 = re.search(r'^(?P<prefix>.*?):.+?(?P<heightin>\d.*?)x(?P<widthin>.*?)in.*?\((?P<heightcm>.*?)x(?P<widthcm>.*?)cm\)$',value.strip())
@@ -195,7 +198,15 @@ def DimensionNormalise(parent, element_header, value):
         heightcentimeters = m1.group('heightcm').strip()
         widthinches = m1.group('widthin').strip()
         widthcentimeters = m1.group('widthcm').strip()
-        CreateDimensions(heightinches,heightcentimeters,widthinches,widthcentimeters,fieldname,parent)
+        HI = CreateDimensions(heightinches, 'inches', 'height')
+        dimensions.append(HI)
+        HC = CreateDimensions(heightcentimeters, 'centimeters', 'height')
+        dimensions.append(HC)
+        WI = CreateDimensions(widthinches, 'inches', 'width')
+        dimensions.append(WI)
+        WC = CreateDimensions(widthcentimeters, 'centimeters', 'width')
+        dimensions.append(WC)
+        parent.append(dimensions)
 
     elif m2 and not m6:
 
@@ -203,7 +214,15 @@ def DimensionNormalise(parent, element_header, value):
         heightcentimeters = m2.group('heightcm').strip()
         widthinches = m2.group('widthin').strip()
         widthcentimeters = m2.group('widthcm').strip()
-        CreateDimensions(heightinches, heightcentimeters, widthinches, widthcentimeters, fieldname, parent)
+        HI = CreateDimensions(heightinches,'inches','height')
+        dimensions.append(HI)
+        HC = CreateDimensions(heightcentimeters,'centimeters','height')
+        dimensions.append(HC)
+        WI = CreateDimensions(widthinches,'inches','width')
+        dimensions.append(WI)
+        WC = CreateDimensions(widthcentimeters, 'centimeters','width')
+        dimensions.append(WC)
+        parent.append(dimensions)
 
     elif m3 and not m6:
 
@@ -211,7 +230,15 @@ def DimensionNormalise(parent, element_header, value):
         heightcentimeters = m3.group('heightcm').strip()
         widthinches = m3.group('widthin').strip()
         widthcentimeters = m3.group('widthcm').strip()
-        CreateDimensions(heightinches, heightcentimeters, widthinches, widthcentimeters, fieldname, parent)
+        HI = CreateDimensions(heightinches,'inches','height')
+        dimensions.append(HI)
+        HC = CreateDimensions(heightcentimeters,'centimeters','height')
+        dimensions.append(HC)
+        WI = CreateDimensions(widthinches,'inches','width')
+        dimensions.append(WI)
+        WC = CreateDimensions(widthcentimeters, 'centimeters','width')
+        dimensions.append(WC)
+        parent.append(dimensions)
 
     elif m4 and not m6:
 
@@ -219,7 +246,15 @@ def DimensionNormalise(parent, element_header, value):
         heightcentimeters = m4.group('heightcm').strip()
         widthinches = m4.group('widthin').strip()
         widthcentimeters = m4.group('widthcm').strip()
-        CreateDimensions(heightinches, heightcentimeters, widthinches, widthcentimeters, fieldname, parent)
+        HI = CreateDimensions(heightinches,'inches','height')
+        dimensions.append(HI)
+        HC = CreateDimensions(heightcentimeters,'centimeters','height')
+        dimensions.append(HC)
+        WI = CreateDimensions(widthinches,'inches','width')
+        dimensions.append(WI)
+        WC = CreateDimensions(widthcentimeters, 'centimeters','width')
+        dimensions.append(WC)
+        parent.append(dimensions)
 
     elif m5 and not m6:
 
@@ -227,31 +262,56 @@ def DimensionNormalise(parent, element_header, value):
         heightcentimeters = m5.group('heightcm').strip()
         widthinches = m5.group('widthin').strip()
         widthcentimeters = m5.group('widthcm').strip()
-        CreateDimensions(heightinches, heightcentimeters, widthinches, widthcentimeters, fieldname, parent)
+        HI = CreateDimensions(heightinches,'inches','height')
+        dimensions.append(HI)
+        HC = CreateDimensions(heightcentimeters,'centimeters','height')
+        dimensions.append(HC)
+        WI = CreateDimensions(widthinches,'inches','width')
+        dimensions.append(WI)
+        WC = CreateDimensions(widthcentimeters, 'centimeters','width')
+        dimensions.append(WC)
+        parent.append(dimensions)
 
     elif m6:
 
-        heightinches = m6.group('heightin1').strip()
-        heightcentimeters = m6.group('heightcm1').strip()
-        widthinches = m6.group('widthin1').strip()
-        widthcentimeters = m6.group('widthcm1').strip()
+        count = str(m6.re).count('prefix')
 
-        CreateDimensions(heightinches, heightcentimeters, widthinches, widthcentimeters, fieldname, parent)
 
-        heightinches = m6.group('heightin2').strip()
-        heightcentimeters = m6.group('heightcm2').strip()
-        widthinches = m6.group('widthin2').strip()
-        widthcentimeters = m6.group('widthcm2').strip()
 
-        CreateDimensions(heightinches, heightcentimeters, widthinches, widthcentimeters, fieldname, parent)
+        for i in range(1,count + 1):
 
-        heightinches = m6.group('heightin3').strip()
-        heightcentimeters = m6.group('heightcm3').strip()
-        widthinches = m6.group('widthin3').strip()
-        widthcentimeters = m6.group('widthcm3').strip()
 
-        CreateDimensions(heightinches, heightcentimeters, widthinches, widthcentimeters, fieldname, parent)
+            prefix = m6.group('prefix' + str(i)).strip()
+            heightinches = m6.group('heightin' + str(i)).strip()
+            heightcentimeters = m6.group('heightcm'  + str(i)).strip()
+            widthinches = m6.group('widthin' + str(i)).strip()
+            widthcentimeters = m6.group('widthcm' + str(i)).strip()
+            HI = CreateDimensions(heightinches, 'inches', 'height',prefix)
+            dimensions.append(HI)
+            HC = CreateDimensions(heightcentimeters, 'centimeters', 'height',prefix)
+            dimensions.append(HC)
+            WI = CreateDimensions(widthinches, 'inches', 'width',prefix)
+            dimensions.append(WI)
+            WC = CreateDimensions(widthcentimeters, 'centimeters', 'width',prefix)
+            dimensions.append(WC)
+            parent.append(dimensions)
 
+            # prefix = m6.group('prefix2').strip()
+        # heightinches = m6.group('heightin2').strip()
+        # heightcentimeters = m6.group('heightcm2').strip()
+        # widthinches = m6.group('widthin2').strip()
+        # widthcentimeters = m6.group('widthcm2').strip()
+        #
+        # CreateDimensions(heightinches, heightcentimeters, widthinches, widthcentimeters, fieldname, parent)
+        #
+        # prefix = m6.group('prefix3').strip()
+        # heightinches = m6.group('heightin3').strip()
+        # heightcentimeters = m6.group('heightcm3').strip()
+        # widthinches = m6.group('widthin3').strip()
+        # widthcentimeters = m6.group('widthcm3').strip()
+        #
+        # CreateDimensions(heightinches, heightcentimeters, widthinches, widthcentimeters, fieldname, parent, prefix)
+        #
 
 
     else:
@@ -261,16 +321,33 @@ def DimensionNormalise(parent, element_header, value):
 #########################LanguageNormalise - take some text and determine the unicode language code####
 
 def LanguageNormalise(parent, element_header, value, delimiter):
-    field = element_header.replace(" ", "_")
-    multilang = value.split('|')
 
-    for i in range(0,len(multilang)):
-        globals()[field + str(i)] = ET.SubElement(parent, field)
-        text = ET.SubElement(globals()[field + str(i)], 'text')
-        text.text = multilang[i]
-        if len(multilang[i]) > 0:
-            text = ET.SubElement(globals()[field + str(i)], 'lang')
-            text.text = str(langdetect.detect(multilang[i]))
+    seriessplit = []
+
+    field = element_header.replace(" ", "_")
+    if value.find(delimiter)>0:
+        #splitOnLanguage = value.split(delimiter)
+
+
+        multilang = value.split(delimiter)        #split the field into two titles
+
+        if str(langdetect.detect(multilang[1])) == 'en' and multilang[1].find('from the series'):
+            seriessplit = multilang[1].split('from the series')
+            multilang[1] = seriessplit[0]
+
+        for i in range(0,len(multilang)):
+            globals()[field + str(i)] = ET.SubElement(parent, field)
+            text = ET.SubElement(globals()[field + str(i)], 'text')
+            text.text = multilang[i]
+            if len(multilang[i]) > 0:
+                text = ET.SubElement(globals()[field + str(i)], 'lang')
+                text.text = str(langdetect.detect(multilang[i]))
+
+
+        if len(seriessplit) > 1:
+            series = ET.SubElement(parent,'series_title')
+            series.text = seriessplit[1]
+
     return()
 
 
@@ -294,6 +371,16 @@ def AddValueasXML(parent, element_header, value):
     field = ET.SubElement(parent,str(element_header))
     field.text = value
     return field
+
+
+
+
+
+##########################################  MAIN Starts HERE  #########################################
+
+
+
+
 
 ######   This opens and clears the file for appending  ###############
 f = open('HokusaiMetObjects.csv','r',encoding='utf8')
@@ -323,23 +410,26 @@ columns = len(header)
 
 for row in myreader:
     rowcount += 1
+    #print('row: ' + str(rowcount) )
     for i in range(0,columns):
         if isFieldforDateNormalisation(header[i]) == True:
             #print(header[i], row[i])
             DateNormalise(metDoc, header[i],row[i])
         elif isFieldforDimensionNormalisation(header[i]) == True:
-            #print(header[i], row[i])
+            print(header[i], row[i])
             DimensionNormalise(metDoc, header[i],row[i])
-        elif isFieldforLanguageNormalisation(header[i]) == True:
+        elif isFieldforLanguageNormalisation(header[i]) == True and len(row[i].strip()) > 0:
             #print(header[i], row[i])
             LanguageNormalise(metDoc, header[i],row[i],'|')
         else:
+            #print(row)
+            #print('column: ' + str(i) + header[i])
+
             myfield = AddValueasXML(metDoc,header[i],row[i])
 
         if row[i] == "Katsushika Hokusai":
             AddExternalURIs(metDoc,'1820',row[i],"Person","BM")
 
-print(count)
-print(rowcount)
+
 myxml = ET.tostring(metDoc,pretty_print=True,method='xml',encoding='unicode')
 print(BeautifulSoup(myxml, "xml").prettify(),file=w)
