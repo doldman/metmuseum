@@ -565,7 +565,7 @@
    Poem by Kakinomoto Hitomaro,
   </text>
   <lang>
-   pl
+   cs
   </lang>
  </Title>
  <series_title>
@@ -925,7 +925,7 @@
    百人一首　姥か恵と起　大中臣能宣朝臣
   </text>
   <lang>
-   zh-cn
+   ja
   </lang>
  </Title>
  <Title>
@@ -933,7 +933,7 @@
    Poem by Ōnakatomi no Yoshinobu Ason,
   </text>
   <lang>
-   tl
+   sw
   </lang>
  </Title>
  <series_title>
@@ -2589,7 +2589,7 @@
    Tama River in Musashi Province (Bushū Tamagawa),
   </text>
   <lang>
-   en
+   id
   </lang>
  </Title>
  <series_title>
@@ -2773,7 +2773,7 @@
    The Lake at Hakone in Sagami Province (Sōshū Hakone kosui),
   </text>
   <lang>
-   en
+   hr
   </lang>
  </Title>
  <series_title>
@@ -3141,7 +3141,7 @@
    Fujimigahara in Owari Province (Bishū Fujimigahara),
   </text>
   <lang>
-   id
+   sw
   </lang>
  </Title>
  <series_title>
@@ -3317,7 +3317,7 @@
    「冨嶽三十六景　相州梅沢左」
   </text>
   <lang>
-   ko
+   zh-tw
   </lang>
  </Title>
  <Title>
@@ -3874,12 +3874,15 @@
  </Title>
  <Title>
   <text>
-   Tsukudajima in Musashi Province (Buyō Tsukudajima), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)
+   Tsukudajima in Musashi Province (Buyō Tsukudajima),
   </text>
   <lang>
-   en
+   hr
   </lang>
  </Title>
+ <series_title>
+  Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)
+ </series_title>
  <Culture>
   Japan
  </Culture>
@@ -4426,7 +4429,7 @@
    Tsukudajima in Musashi Province (Buyō Tsukudajima),
   </text>
   <lang>
-   id
+   hr
   </lang>
  </Title>
  <series_title>
@@ -4794,7 +4797,7 @@
    Cushion Pine at Aoyama (Aoyama enza no matsu),
   </text>
   <lang>
-   sw
+   tl
   </lang>
  </Title>
  <series_title>
@@ -6233,7 +6236,7 @@
    Fuji from the Katakura Tea Fields in Suruga (Sunshū Katakura chaen no Fuji),
   </text>
   <lang>
-   id
+   sw
   </lang>
  </Title>
  <series_title>
@@ -6593,7 +6596,7 @@
    冨嶽三十六景　隠田の水車
   </text>
   <lang>
-   ja
+   zh-tw
   </lang>
  </Title>
  <Title>
@@ -6785,7 +6788,7 @@
    Poem by Fujiwara no Michinobu Ason,
   </text>
   <lang>
-   sw
+   en
   </lang>
  </Title>
  <series_title>
@@ -7702,7 +7705,7 @@
    Kajikazawa in Kai Province (Kōshū Kajikazawa), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)
   </text>
   <lang>
-   en
+   sw
   </lang>
  </Title>
  <Culture>
@@ -8059,7 +8062,7 @@
    「富嶽三十六景　神奈川沖浪裏」
   </text>
   <lang>
-   ko
+   zh-tw
   </lang>
  </Title>
  <Title>
@@ -8759,6 +8762,50 @@
    </value>
    <type>
     Overall with mounting width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    54 3/4
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    139
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    31
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    78.7
+   </value>
+   <type>
+    Overall with knobs width
    </type>
    <unit>
     centimeters
@@ -9858,7 +9905,7 @@
    冨嶽三十六景　甲州犬目峠
   </text>
   <lang>
-   zh-cn
+   ko
   </lang>
  </Title>
  <Title>
@@ -10398,7 +10445,7 @@
    Poem by Kiyohara no Fukayabu,
   </text>
   <lang>
-   sw
+   tl
   </lang>
  </Title>
  <series_title>
@@ -11628,6 +11675,50 @@
     centimeters
    </unit>
   </dimension>
+  <dimension>
+   <value>
+    64 7/16
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    163.7
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    19 5/16
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    49
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
  </Dimensions>
  <Credit_Line>
   Charles Stewart Smith Collection, Gift of Mrs. Charles Stewart Smith, Charles Stewart Smith Jr., and Howard Caswell Smith, in memory of Charles Stewart Smith, 1914
@@ -11833,6 +11924,50 @@
    </value>
    <type>
     Overall with mounting width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    59 1/2
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    151.2
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    19 3/16
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    48.7
+   </value>
+   <type>
+    Overall with knobs width
    </type>
    <unit>
     centimeters
@@ -12063,6 +12198,50 @@
     centimeters
    </unit>
   </dimension>
+  <dimension>
+   <value>
+    59 7/16
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    151
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    63 3/8
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    160.9
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
  </Dimensions>
  <Credit_Line>
   Charles Stewart Smith Collection, Gift of Mrs. Charles Stewart Smith, Charles Stewart Smith Jr., and Howard Caswell Smith, in memory of Charles Stewart Smith, 1914
@@ -12270,6 +12449,50 @@
    </value>
    <type>
     Overall with mounting width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    62 5/8
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    159
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    19
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    48.2
+   </value>
+   <type>
+    Overall with knobs width
    </type>
    <unit>
     centimeters
@@ -12485,6 +12708,50 @@
     centimeters
    </unit>
   </dimension>
+  <dimension>
+   <value>
+    61 in.
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    154.9
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    21 5/16
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    54.1
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
  </Dimensions>
  <Credit_Line>
   Charles Stewart Smith Collection, Gift of Mrs. Charles Stewart Smith, Charles Stewart Smith Jr., and Howard Caswell Smith, in memory of Charles Stewart Smith, 1914
@@ -12690,6 +12957,50 @@
    </value>
    <type>
     Overall with mounting width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    72 5/8
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    184.5
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    20 1/2
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    52
+   </value>
+   <type>
+    Overall with knobs width
    </type>
    <unit>
     centimeters
@@ -12905,6 +13216,50 @@
     centimeters
    </unit>
   </dimension>
+  <dimension>
+   <value>
+    60 3/4
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    154.3
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    15 1/8
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    38.4
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
  </Dimensions>
  <Credit_Line>
   H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929
@@ -13110,6 +13465,50 @@
    </value>
    <type>
     Overall with mounting width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    67 5/16
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    171
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    19 1/8
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    48.5
+   </value>
+   <type>
+    Overall with knobs width
    </type>
    <unit>
     centimeters
@@ -13535,6 +13934,50 @@
     centimeters
    </unit>
   </dimension>
+  <dimension>
+   <value>
+    45 3/8
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    115.3
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    30 13/16
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    78.2
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
  </Dimensions>
  <Credit_Line>
   H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929
@@ -13910,6 +14353,50 @@
    </value>
    <type>
     Overall with mounting width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    80 9/16
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    204.7
+   </value>
+   <type>
+    Overall with knobs height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    12 1/2
+   </value>
+   <type>
+    Overall with knobs width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    31.8
+   </value>
+   <type>
+    Overall with knobs width
    </type>
    <unit>
     centimeters
@@ -15136,7 +15623,7 @@
    Banana Garden at Nakashima (Nakashima shōen),
   </text>
   <lang>
-   sw
+   id
   </lang>
  </Title>
  <series_title>
@@ -16424,7 +16911,7 @@
    Picture Book in the Katsushika Style (Ehon Katsushika-buri)
   </text>
   <lang>
-   et
+   en
   </lang>
  </Title>
  <Culture>
@@ -18997,7 +19484,7 @@
    Kintai Bridge in Suō Province (Suō no kuni Kintaibashi),
   </text>
   <lang>
-   id
+   en
   </lang>
  </Title>
  <series_title>
@@ -21855,7 +22342,7 @@
    Miyako Shell
   </text>
   <lang>
-   sw
+   so
   </lang>
  </Title>
  <Culture>
@@ -22028,7 +22515,7 @@
    衣食住
   </text>
   <lang>
-   ko
+   zh-cn
   </lang>
  </Title>
  <Title>
@@ -23414,6 +23901,50 @@
    </value>
    <type>
     Overall with paper mount width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    15 1/2
+   </value>
+   <type>
+    Overall with mat height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    39.4
+   </value>
+   <type>
+    Overall with mat height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    22 3/4
+   </value>
+   <type>
+    Overall with mat width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    57.8
+   </value>
+   <type>
+    Overall with mat width
    </type>
    <unit>
     centimeters
@@ -28255,7 +28786,7 @@
    Ono Waterfall on the Kisokaidō (Kisokaidō Ono no bakufu),
   </text>
   <lang>
-   sw
+   en
   </lang>
  </Title>
  <series_title>
@@ -28439,7 +28970,7 @@
    Kiyotaki Kannon Waterfall at Sakanoshita on the Tōkaidō (Tōkaidō Sakanoshita Kiyotaki kannon),
   </text>
   <lang>
-   sw
+   fi
   </lang>
  </Title>
  <series_title>
@@ -31158,7 +31689,7 @@
    Mitsui Shop at Surugachō in Edo (Edo Surugachō Mitsui mise ryaku zu),
   </text>
   <lang>
-   id
+   de
   </lang>
  </Title>
  <series_title>
@@ -31699,7 +32230,7 @@
    冨嶽三十六景　東海道吉田
   </text>
   <lang>
-   zh-tw
+   ko
   </lang>
  </Title>
  <Title>
@@ -31707,7 +32238,7 @@
    Yoshida on the Tōkaidō (Tōkaidō Yoshida),
   </text>
   <lang>
-   en
+   et
   </lang>
  </Title>
  <series_title>
@@ -32075,7 +32606,7 @@
    Fuji Seen in the Distance from Senju Pleasure Quarter (Senju kagai yori chōbō no Fuji),
   </text>
   <lang>
-   sl
+   hr
   </lang>
  </Title>
  <series_title>
@@ -32256,15 +32787,12 @@
  </Title>
  <Title>
   <text>
-   Dawn at Isawa in Kai Province (Kōshū Isawa no akatsuki),
+   Dawn at Isawa in Kai Province (Kōshū Isawa no akatsuki), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)
   </text>
   <lang>
-   id
+   en
   </lang>
  </Title>
- <series_title>
-  Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)
- </series_title>
  <Culture>
   Japan
  </Culture>
@@ -32995,7 +33523,7 @@
    Fuji from the Katakura Tea Fields in Suruga (Sunshū Katakura chaen no Fuji),
   </text>
   <lang>
-   id
+   sw
   </lang>
  </Title>
  <series_title>
@@ -33547,7 +34075,7 @@
    Hodogaya on the Tōkaidō (Tōkaidō Hodogaya),
   </text>
   <lang>
-   so
+   tl
   </lang>
  </Title>
  <series_title>
@@ -33907,7 +34435,7 @@
    百人一首　乳母か縁説　在原業平
   </text>
   <lang>
-   zh-tw
+   ja
   </lang>
  </Title>
  <Title>
@@ -34467,7 +34995,7 @@
    Kiyotaki Kannon Waterfall at Sakanoshita on the Tōkaidō (Tōkaidō Sakanoshita Kiyotaki kannon),
   </text>
   <lang>
-   fi
+   sw
   </lang>
  </Title>
  <series_title>
@@ -34835,7 +35363,7 @@
    The Sacred Spring at Jōgaku (Jōgaku reisen),
   </text>
   <lang>
-   id
+   en
   </lang>
  </Title>
  <series_title>
@@ -35525,7 +36053,7 @@
    Poem by Gon-chūnagon Masafusa (Ōe no Masafusa),
   </text>
   <lang>
-   tl
+   cy
   </lang>
  </Title>
  <series_title>
@@ -36489,7 +37017,7 @@
    Ejiri in Suruga Province (Sunshū Ejiri),
   </text>
   <lang>
-   id
+   hr
   </lang>
  </Title>
  <series_title>
@@ -38119,7 +38647,7 @@
    二代中村野塩
   </text>
   <lang>
-   ko
+   zh-cn
   </lang>
  </Title>
  <Title>
@@ -40266,7 +40794,7 @@
    諸國瀧廻リ　木曾海道小野ノ瀑布
   </text>
   <lang>
-   ko
+   ja
   </lang>
  </Title>
  <Title>
@@ -40274,7 +40802,7 @@
    Ono Waterfall on the Kisokaidō (Kisokaidō Ono no bakufu),
   </text>
   <lang>
-   en
+   sw
   </lang>
  </Title>
  <series_title>
@@ -40458,7 +40986,7 @@
    Kiyotaki Kannon Waterfall at Sakanoshita on the Tōkaidō (Tōkaidō Sakanoshita Kiyotaki kannon),
   </text>
   <lang>
-   sw
+   fi
   </lang>
  </Title>
  <series_title>
@@ -41002,7 +41530,7 @@
    諸國瀧廻　東都葵ヶ岡の瀧
   </text>
   <lang>
-   ko
+   ja
   </lang>
  </Title>
  <Title>
@@ -42294,7 +42822,7 @@
    Poem by Fujiwara no Michinobu Ason,
   </text>
   <lang>
-   en
+   sw
   </lang>
  </Title>
  <series_title>
@@ -42478,7 +43006,7 @@
    Poem by Gon-Chūnagon Sadaie,
   </text>
   <lang>
-   cy
+   en
   </lang>
  </Title>
  <series_title>
@@ -44602,7 +45130,7 @@
    Fuji from the Katakura Tea Fields in Suruga (Sunshū Katakura chaen no Fuji),
   </text>
   <lang>
-   id
+   sw
   </lang>
  </Title>
  <series_title>
@@ -45146,7 +45674,7 @@
    冨嶽三十六景　登戸浦
   </text>
   <lang>
-   ko
+   zh-cn
   </lang>
  </Title>
  <Title>
@@ -46250,7 +46778,7 @@
    冨嶽三十六景　信州諏訪湖
   </text>
   <lang>
-   zh-cn
+   ko
   </lang>
  </Title>
  <Title>
@@ -47538,7 +48066,7 @@
    冨嶽三十六景　東海道吉田
   </text>
   <lang>
-   zh-tw
+   ko
   </lang>
  </Title>
  <Title>
@@ -48279,15 +48807,12 @@
  </Title>
  <Title>
   <text>
-   Nakahara in Sagami Province (Sōshū Nakahara),
+   Nakahara in Sagami Province (Sōshū Nakahara), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)
   </text>
   <lang>
-   id
+   en
   </lang>
  </Title>
- <series_title>
-  Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)
- </series_title>
  <Culture>
   Japan
  </Culture>
@@ -48826,7 +49351,7 @@
    冨嶽三十六景　深川万年橋下
   </text>
   <lang>
-   ko
+   zh-cn
   </lang>
  </Title>
  <Title>
@@ -48834,7 +49359,7 @@
    Under the Mannen Bridge at Fukagawa (Fukagawa Mannenbashi shita),
   </text>
   <lang>
-   en
+   sw
   </lang>
  </Title>
  <series_title>
@@ -49935,15 +50460,12 @@
  </Title>
  <Title>
   <text>
-   Fuji from Gotenyama at Shinagawa on the Tōkaidō (Tōkaidō Shinagawa Gotenyama no Fuji),
+   Fuji from Gotenyama at Shinagawa on the Tōkaidō (Tōkaidō Shinagawa Gotenyama no Fuji), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)
   </text>
   <lang>
    sw
   </lang>
  </Title>
- <series_title>
-  Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)
- </series_title>
  <Culture>
   Japan
  </Culture>
@@ -50122,7 +50644,7 @@
    Nihonbashi in Edo (Edo Nihonbashi),
   </text>
   <lang>
-   en
+   so
   </lang>
  </Title>
  <series_title>
@@ -50847,7 +51369,7 @@
    冨嶽三十六景　甲州犬目峠
   </text>
   <lang>
-   ko
+   zh-cn
   </lang>
  </Title>
  <Title>
@@ -53417,7 +53939,7 @@
    冨嶽三十六景　礫川雪の旦
   </text>
   <lang>
-   ko
+   ja
   </lang>
  </Title>
  <Title>
@@ -53977,7 +54499,7 @@
    Tama River in Musashi Province (Bushū Tamagawa),
   </text>
   <lang>
-   en
+   id
   </lang>
  </Title>
  <series_title>
@@ -54161,7 +54683,7 @@
    Tago Bay near Ejiri on the Tōkaidō (Tōkaidō Ejiri Tago no ura ryaku zu),
   </text>
   <lang>
-   sw
+   tl
   </lang>
  </Title>
  <series_title>
@@ -54345,7 +54867,7 @@
    Hodogaya on the Tōkaidō (Tōkaidō Hodogaya),
   </text>
   <lang>
-   so
+   tl
   </lang>
  </Title>
  <series_title>
@@ -72739,7 +73261,7 @@
    Picture Book of Kyōka Poems: Mountains upon Mountains (Ehon kyōka yama mata yama)
   </text>
   <lang>
-   en
+   id
   </lang>
  </Title>
  <Culture>
@@ -74568,7 +75090,7 @@
    『絵本和漢誉』
   </text>
   <lang>
-   ko
+   ja
   </lang>
  </Title>
  <Title>
@@ -76231,6 +76753,50 @@
    </value>
    <type>
     vol. b (orange cover) width
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    10 1/4
+   </value>
+   <type>
+    vol. c height
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    26
+   </value>
+   <type>
+    vol. c height
+   </type>
+   <unit>
+    centimeters
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    7 1/16
+   </value>
+   <type>
+    vol. c width
+   </type>
+   <unit>
+    inches
+   </unit>
+  </dimension>
+  <dimension>
+   <value>
+    18
+   </value>
+   <type>
+    vol. c width
    </type>
    <unit>
     centimeters
@@ -77957,7 +78523,7 @@
    Men’s Stomping Dances (Otoko dōka)
   </text>
   <lang>
-   en
+   tl
   </lang>
  </Title>
  <Culture>

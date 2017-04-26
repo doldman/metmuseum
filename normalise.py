@@ -252,7 +252,10 @@ def DimensionNormalise(parent, element_header, value):
     elif m4a and not m6 :
 
         print('m4a\n')
-        count = str(m4a.re).count('prefix')
+        count = 0
+        for key in m4a.re.groupindex.keys():
+            if 'prefix' in str(key):
+                count = count + 1
 
         for i in range(1, count + 1):
 
