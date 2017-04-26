@@ -24,15 +24,7 @@ import normalise
 ##glossary http://mercury.lcs.mit.edu/~jnc/prints/glossary.html
 
 
-
-
-
-
 ##########################################  MAIN Starts HERE  #########################################
-
-
-
-
 
 ######   This opens and clears the file for appending  ###############
 f = open('HokusaiMetObjects.csv','r',encoding='utf8')
@@ -50,7 +42,7 @@ myreader = csv.reader(f,delimiter=',')
 
 ############    This initiates an XML document for writing in the new elements from the CSV ####################
 
-metDoc = ET.Element("metobject")
+
 
 #############   This gets the first row which contans the header (firld names) ###########################
 
@@ -60,30 +52,44 @@ header = next(myreader)
 
 columns = len(header)
 
+met = ET.Element("met")
+
 for row in myreader:
+
+
     rowcount += 1
+    globals()['metDoc' + str(rowcount)] = ET.SubElement(met, "metobject")
+
     #print('row: ' + str(rowcount) )
     for i in range(0,columns):
+
+        print(rowcount)
+
         if normalise.isFieldforDateNormalisation(header[i]) == True:
             #print(header[i], row[i])
-            normalise.DateNormalise(metDoc, header[i],row[i])
+            normalise.DateNormalise(globals()['metDoc' + str(rowcount)], header[i],row[i])
         elif normalise.isFieldforDimensionNormalisation(header[i]) == True:
-            print(rowcount)
-            normalise.DimensionNormalise(metDoc, header[i],row[i])
+            normalise.DimensionNormalise(globals()['metDoc' + str(rowcount)], header[i],row[i])
         elif normalise.isFieldforLanguageNormalisation(header[i]) == True and len(row[i].strip()) > 0:
             #print(header[i], row[i])
-            normalise.LanguageNormalise(metDoc, header[i],row[i],'|')
+            normalise.LanguageNormalise(globals()['metDoc' + str(rowcount)], header[i],row[i],'|')
+        elif normalise.isFieldforPeriod(header[i]) == True:
+            #print(row[i])
+            normalise.PeriodNormalise(globals()['metDoc' + str(rowcount)],header[i],row[i])
+        elif normalise.isMedium(header[i]) == True:
+            #print(row[i])
+            normalise.typetechniqueNormalise(globals()['metDoc' + str(rowcount)],header[i],row[i])
+
         else:
             #print(row)
             #print('column: ' + str(i) + header[i])
 
-            myfield = normalise.AddValueasXML(metDoc,header[i],row[i])
+            myfield = normalise.AddValueasXML(globals()['metDoc' + str(rowcount)],header[i],row[i])
 
         if row[i] == "Katsushika Hokusai":
-            normalise.AddExternalURIs(metDoc,'1820',row[i],"Person","BM")
+            normalise.AddExternalURIs(globals()['metDoc' + str(rowcount)],'1820',row[i],"Person","BM")
 
-        if header[i] == 'Period':
-            print(row[i])
 
-myxml = ET.tostring(metDoc,pretty_print=True,method='xml',encoding='unicode')
+
+myxml = ET.tostring(met,pretty_print=True,method='xml',encoding='unicode')
 print(BeautifulSoup(myxml, "xml").prettify(),file=w)

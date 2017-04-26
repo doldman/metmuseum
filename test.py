@@ -1,30 +1,36 @@
 import normalise
 import lxml
+import nltk
 
 
 from lxml import etree as ET
 
-
 root = ET.Element('root')
 
-dimensions = normalise.DimensionNormalise(root,'dimensions',"Image: 44 5/16 × 9 3/16 in. (112.5 × 23.4 cm)")
-print('one dimension ***********************************************************************')
-print(ET.tostring(dimensions,pretty_print=True,method='xml',encoding='unicode'))
-print('one dimension ***********************************************************************\n\n')
+tags = normalise.typetechniqueNormalise(root, 'period', 'Hanging scroll; ink and color on silk')
 
 
-print('two dimension ***********************************************************************')
-dimensions = normalise.DimensionNormalise(root,'dimensions',"Image: 44 5/16 × 9 3/16 in. (112.5 × 23.4 cm)\
-Overall with mounting: 80 9/16 × 10 11/16 in. (204.7 × 27.2 cm)")
-print(ET.tostring(dimensions,pretty_print=True,method='xml',encoding='unicode'))
-print('two dimension ***********************************************************************\n\n')
 
-print('three dimension ***********************************************************************')
-dimensions = normalise.DimensionNormalise(root,'dimensions',"Image: 44 5/16 × 9 3/16 in. (112.5 × 23.4 cm)\
-Overall with mounting: 80 9/16 × 10 11/16 in. (204.7 × 27.2 cm)\
-Overall with knobs: 80 9/16 × 12 1/2 in. (204.7 × 31.8 cm)")
-print(ET.tostring(dimensions,pretty_print=True,method='xml',encoding='unicode'))
-print('three dimension ***********************************************************************\n\n')
+
+
+    # dimensions = normalise.DimensionNormalise(root,'dimensions',"Image: 44 5/16 × 9 3/16 in. (112.5 × 23.4 cm)")
+# print('one dimension ***********************************************************************')
+# print(ET.tostring(dimensions,pretty_print=True,method='xml',encoding='unicode'))
+# print('one dimension ***********************************************************************\n\n')
+#
+#
+# print('two dimension ***********************************************************************')
+# dimensions = normalise.DimensionNormalise(root,'dimensions',"Image: 44 5/16 × 9 3/16 in. (112.5 × 23.4 cm)\
+# Overall with mounting: 80 9/16 × 10 11/16 in. (204.7 × 27.2 cm)")
+# print(ET.tostring(dimensions,pretty_print=True,method='xml',encoding='unicode'))
+# print('two dimension ***********************************************************************\n\n')
+#
+# print('three dimension ***********************************************************************')
+# dimensions = normalise.DimensionNormalise(root,'dimensions',"Image: 44 5/16 × 9 3/16 in. (112.5 × 23.4 cm)\
+# Overall with mounting: 80 9/16 × 10 11/16 in. (204.7 × 27.2 cm)\
+# Overall with knobs: 80 9/16 × 12 1/2 in. (204.7 × 31.8 cm)")
+# print(ET.tostring(dimensions,pretty_print=True,method='xml',encoding='unicode'))
+# print('three dimension ***********************************************************************\n\n')
 
 #These dimensions are then wrapped in parent element - dimensions
 

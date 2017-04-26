@@ -1,15 +1,26 @@
 from lxml import etree as ET
 import re
 import langdetect
+from bs4 import BeautifulSoup
+import nltk
+import pandas
 
 ################  Check against a list of fields for which date normalisation is needed. #########################
 
 def isFieldforDateNormalisation(field):
-    datenormaliselist = ['Artist Begin Date','Artist End Date','Object Begin Date','Object End Date']
-    if field in datenormaliselist:
+    normaliselist = ['Artist Begin Date','Artist End Date','Object Begin Date','Object End Date']
+    if field in normaliselist:
         return True
     else:
         return False
+
+def isMedium(field):
+    normaliselist = ['Medium']
+    if field in normaliselist:
+        return True
+    else:
+        return False
+
 
 ################  Check against a list for fields for which dimension normalisation is needed.  ####################
 
@@ -29,6 +40,64 @@ def isFieldforLanguageNormalisation(field):
         return True
     else:
         return False
+
+###############################  Seperation of fields with delimited language versions  ####################
+
+
+def isFieldforPeriod(field):
+    datenormaliselist = ['Period']
+    if field in datenormaliselist:
+        return True
+    else:
+        return False
+
+###############################  tease out Period  ####################
+
+def PeriodNormalise(parent,element,value):
+    m1 = re.search(r'(?P<period>^\w+).+?(?P<word>\w+).+?\((?P<range>.*)\)$',value.strip())
+
+    if m1:
+        element = element.replace(" ", "_")
+        period = ET.SubElement(parent,"Period")
+        period.text = m1.group('period').strip()
+        #print('hit ' + m1.group('period'))
+    else:
+        period = ET.SubElement(parent, "Period")
+        period.text = ''
+        #print('miss- period ' + value)
+
+
+######################### Technique and Material ##########################################################
+
+def typetechniqueNormalise(parent, element, value):
+
+
+    if value.find(';') > -1:
+        parts = value.split(';')
+
+        tech = ET.SubElement(parent, "Technique")
+        tech.text = parts[0].strip()
+
+        tokens = nltk.word_tokenize(parts[1])
+        tagged = nltk.pos_tag(tokens)
+
+        technote = ET.SubElement(parent,'Technique_Note')
+        technote.text = parts[1].strip()
+
+        i = 1
+        for tag in tagged:
+            if tag[1] == 'NN':
+                globals()['material' + str(i)] = ET.SubElement(parent,'Material')
+                globals()['material' + str(i)].text = tag[0]
+                i += 1
+
+    else:
+        tech = ET.SubElement(parent, "Object_Type")
+        tech.text = value.strip()
+
+
+
+
 
 #####################################  Normalise the date and return xml  ##################################
 
@@ -175,7 +244,7 @@ def DimensionNormalise(parent, element_header, value):
 
 
     if m1 and not m6:
-        print('m1\n')
+        #print('m1\n')
         heightinches = m1.group('heightin').strip()
         heightcentimeters = m1.group('heightcm').strip()
         widthinches = m1.group('widthin').strip()
@@ -194,7 +263,7 @@ def DimensionNormalise(parent, element_header, value):
 
     elif m2 and not m6:
 
-        print('m2\n')
+        #print('m2\n')
         heightinches = m2.group('heightin').strip()
         heightcentimeters = m2.group('heightcm').strip()
         widthinches = m2.group('widthin').strip()
@@ -213,7 +282,7 @@ def DimensionNormalise(parent, element_header, value):
 
     elif m3 and not m6:
 
-        print('m3\n')
+        #print('m3\n')
         heightinches = m3.group('heightin').strip()
         heightcentimeters = m3.group('heightcm').strip()
         widthinches = m3.group('widthin').strip()
@@ -232,7 +301,7 @@ def DimensionNormalise(parent, element_header, value):
 
     elif m4 and not m6 and not m4a:
 
-        print('m4\n')
+        #print('m4\n')
         heightinches = m4.group('heightin').strip()
         heightcentimeters = m4.group('heightcm').strip()
         widthinches = m4.group('widthin').strip()
@@ -251,7 +320,7 @@ def DimensionNormalise(parent, element_header, value):
 
     elif m4a and not m6 :
 
-        print('m4a\n')
+        #print('m4a\n')
         count = 0
         for key in m4a.re.groupindex.keys():
             if 'prefix' in str(key):
@@ -279,7 +348,7 @@ def DimensionNormalise(parent, element_header, value):
 
     elif m5 and not m6:
 
-        print('m5\n')
+        #print('m5\n')
         heightinches = m5.group('heightin').strip()
         heightcentimeters = m5.group('heightcm').strip()
         widthinches = m5.group('widthin').strip()
@@ -298,7 +367,7 @@ def DimensionNormalise(parent, element_header, value):
 
     elif m6:
 
-        print('m6\n')
+        #print('m6\n')
         #count = str(m6.re).count('prefix')
         count = 0
         for key in m6.re.groupindex.keys():
@@ -363,24 +432,44 @@ def LanguageNormalise(parent, element_header, value, delimiter):
 
         multilang = value.split(delimiter)        #split the field into two titles
 
-        if str(langdetect.detect(multilang[1])) == 'en' and multilang[1].find('from the series'):
+        if str(langdetect.detect(multilang[1])) == 'en' and multilang[1].find('from the series') > -1:
             seriessplit = multilang[1].split('from the series')
             multilang[1] = seriessplit[0]
+
+            splitno = multilang[1].find('(')
+            if splitno > 0:
+                roman = multilang[1].split('(')
+                multilang[1] = roman[0]
+                roman[1] = roman[1][:-3]
+                multilang.append(roman[1])
+
 
         for i in range(0,len(multilang)):
             globals()[field + str(i)] = ET.SubElement(parent, field)
             text = ET.SubElement(globals()[field + str(i)], 'text')
             text.text = multilang[i]
-            if len(multilang[i]) > 0:
-                text = ET.SubElement(globals()[field + str(i)], 'lang')
-                text.text = str(langdetect.detect(multilang[i]))
+            text = ET.SubElement(globals()[field + str(i)], 'lang')
+            text.text = str(langdetect.detect(multilang[i]))
 
 
         if len(seriessplit) > 1:
-            series = ET.SubElement(parent,'series_title')
-            series.text = seriessplit[1]
+            series = seriessplit[1]
+            twoseries = series.split('(')
+            for i in range(0, len(twoseries)):
+                globals()[field + str(i)] = ET.SubElement(parent,'series_title')
+                text = ET.SubElement(globals()[field + str(i)], 'text')
+                if str(twoseries[i]).find(')') > -1:
+                    text.text = twoseries[i][:-2]
+                else:
+                    text.text = twoseries[i]
 
-    return()
+                text = ET.SubElement(globals()[field + str(i)], 'lang')
+                if str(twoseries[i]).find(')') > -1:
+                    text.text = str(langdetect.detect(twoseries[i]))
+                #print(twoseries[i][:-5])
+                else:
+                    text.text = str(langdetect.detect(twoseries[i]))
+    return ()
 
 
 #########################LanguageNormalise - take some text and determine the unicode language code####
