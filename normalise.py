@@ -107,7 +107,7 @@ def CreateDimensions(dvalue,dunit,dtype,prefix=''):
     unit = ET.SubElement(dimension, 'unit')  # the dimension unit
     unit.text = dunit  # inches
 
-    print(ET.tostring(dimension))
+    #print(ET.tostring(dimension))
 
     return(dimension)
 

@@ -82,6 +82,8 @@ for row in myreader:
         if row[i] == "Katsushika Hokusai":
             normalise.AddExternalURIs(metDoc,'1820',row[i],"Person","BM")
 
+        if header[i] == 'Period':
+            print(row[i])
 
 myxml = ET.tostring(metDoc,pretty_print=True,method='xml',encoding='unicode')
 print(BeautifulSoup(myxml, "xml").prettify(),file=w)
