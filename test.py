@@ -7,7 +7,9 @@ from lxml import etree as ET
 
 root = ET.Element('root')
 
-tags = normalise.typetechniqueNormalise(root, 'period', 'Hanging scroll; ink and color on silk')
+normalise.ProcessTitleStrings(root,'title','衣食住|Attire','|')
+
+print(ET.tostring(root,pretty_print=True,method='xml',encoding='unicode'))
 
 
 

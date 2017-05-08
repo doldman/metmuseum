@@ -79,7 +79,8 @@ for row in myreader:
         elif normalise.isMedium(header[i]) == True:
             #print(row[i])
             normalise.typetechniqueNormalise(globals()['metDoc' + str(rowcount)],header[i],row[i])
-
+        elif normalise.isFieldforActorName(header[i]) == True:
+            normalise.ActorNamesNormalise(globals()['metDoc' + str(rowcount)],row[i])
         else:
             #print(row)
             #print('column: ' + str(i) + header[i])

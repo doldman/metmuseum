@@ -21,6 +21,12 @@ def isMedium(field):
     else:
         return False
 
+def isFieldforActorName(field):
+    normaliselist = ['Artist Display Name']
+    if field in normaliselist:
+        return True
+    else:
+        return False
 
 ################  Check against a list for fields for which dimension normalisation is needed.  ####################
 
@@ -421,101 +427,181 @@ def DimensionNormalise(parent, element_header, value):
 
 #########################LanguageNormalise - take some text and determine the unicode language code####
 
-def ProcessJapanese(title):
-    if title.find(u'\u3000') > -1:
-        mysplit = title.split('\u3000')
-        return mysplit
+def ProcessJapanese(parent, header, titles):
 
-def ProcessEnglishTitles:
+    splittitle = []
+    if titles.find(u'\u3000') > -1:
+        splittitle = titles.split('\u3000')
+        jptitles = ET.SubElement(parent,'Titles')
+        jptitle = ET.SubElement(jptitles,'title')
+        jptitle.text = splittitle[0]
+        jplanguage = ET.SubElement(jptitles,'Language')
+        jplanguage.text = 'ja'
+
+        jpseries = ET.SubElement(parent,'Titles')
+        jpserial = ET.SubElement(jpseries,'serialtitle')
+        jpserial.text = splittitle[1]
+        jplanguage = ET.SubElement(jpseries, 'Language')
+        jplanguage.text = 'ja'
+
+    else:
+        splittitle.append(titles)
+        jptitles = ET.SubElement(parent, 'Titles')
+        jptitle = ET.SubElement(jptitles, 'title')
+        jptitle.text = splittitle[0]
+        jplanguage = ET.SubElement(jptitles, 'Language')
+        jplanguage.text = 'ja'
 
 
-def ProcessRomanTitle
+def ProcessTitle(parent, title, language, type):
+
+    engtitles = ET.SubElement(parent, 'Titles')
+    engtitle = ET.SubElement(engtitles,type)
+    engtitle.text = title
+    titlelang = ET.SubElement(engtitles, 'Language')
+    titlelang.text = language
+    print(title + " : " + language + " : " + type)
 
 
-def ProcessEnlishSeries:
+def ProcessTitleStrings(parent, element_header, value, delimiter):
 
-
-def ProcessRomanSeries:
-
-
-def ProcessTitle(parent, element_header, value, delimiter):
-
+    value = value.replace(',','')
     langsplit = []
     seriessplit = []
     field = element_header.replace(" ", "_")
-    if value.find(delimiter) > 0:
+    if value.find(delimiter) > -1:
         langsplit = value.split('|')
-        ProcessJapanese(langsplit[0])
+        japanesetitles = langsplit[0]
+        englishtitles = langsplit[1]
+        ProcessJapanese(parent,element_header, japanesetitles) #this is the first japanese split taking title and series title
 
-        seriessplit = langsplit[1].split('from the series')
-        ProcessEnglishTitles()
-        ProcessEnlishSeries()
 
+
+        if englishtitles.find('from the series') > -1:
+            seriessplit = englishtitles.split('from the series')
+            engtitles = seriessplit[0]
+            engseries = seriessplit[1]
+
+
+            if engtitles.find('(') > -1:
+                startRoman = engtitles.find('(')
+                endRoman = engtitles.find(')')
+                engTitle = engtitles[0:startRoman]
+                romanTitle = engtitles[startRoman+1:endRoman]
+                additionaltext = engtitles[endRoman + 1:]
+                ProcessTitle(parent,engTitle + " " + additionaltext,'en','Title')
+                ProcessTitle(parent, romanTitle,'rm','Title')
+
+            else:
+                ProcessTitle(parent,engtitles,'en','Title')
+
+            if engseries.find('(') > -1:
+                startRoman = engseries.find('(')
+                endRoman = engseries.find(')')
+                engSerial = engseries[0:startRoman]
+                romanSerial = engseries[startRoman+1:endRoman]
+                ProcessTitle(parent,engSerial,'en','Serial')
+                ProcessTitle(parent, romanSerial,'rn','Serial')
+
+            else:
+                ProcessTitle(parent, engseries,'en','Serial')
+
+        else:
+                if englishtitles.find('(') > -1:
+                    startRoman = englishtitles.find('(')
+                    endRoman = englishtitles.find(')')
+                    engTitle = englishtitles[0:startRoman]
+                    romanTitle = englishtitles[startRoman+1:endRoman]
+                    ProcessTitle(parent, engTitle,'en','Title')
+                    ProcessTitle(parent, romanTitle, 'rn', 'Title')
+                else:
+                    ProcessTitle(parent, englishtitles, 'en', 'Title')
+    else:
+
+        if value.find('(') > -1:
+            startRoman = value.find('(')
+            endRoman = value.find(')')
+            myTitle = englishtitles[0 - startRoman]
+            myromanTitle = englishtitles[startRoman - endRoman]
+            ProcessTitle(parent, engTitle, 'en', 'Title')
+            ProcessTitle(parent, romanTitle, 'rn', 'Title')
+
+        else:
+            if langdetect.detect(value) == 'ja':
+                ProcessTitle(parent, value, 'ja', 'Title')
+            else:
+                ProcessTitle(parent, value, 'en', 'Title')
+
+
+    return()
+
+
+def ActorAttributesNormalise(parent,actor):
+
+    myActors = ET.SubElement(parent, 'Actors')
+
+    i = 0
+    for item in actor:
+        if item.find('|') > -1:
+            field = item.split('|')
+            items = len[field]
+
+            for i in range(items - 1):
+                globals()['p'+ i][i] = field[i]
+
+
+
+
+        else:
+
+            actor = ET.SubElement(myActors,'Actor')
+            role = ET.SubElement(actor, 'role')
+            role.text = item
+            prefix = ET.SubElement(actor, 'prefix')
+            prefix.text = item
+            name = ET.SubElement(actor, 'name')
+            name.text = item
+            bio = ET.SubElement(actor, 'bio')
+            bio.text = item
+
+            # for person in myactors:
+    #
+    #     myActor = ET.SubElement(myActors, 'Actor')
+    #     myActor.text = person
+
+
+def ActorNamesNormalise(parent,actor):
+
+    people = []
+
+    if actor.find('|') > -1:
+        people = actor.split('|')
+    else:
+        people.append(actor)
+
+    for person in people:
+        myActors = ET.SubElement(parent, 'Actors')
+        myActor = ET.SubElement(myActors, 'Actor')
+        myActor.text = person
+
+
+
+
+
+
+
+
+    # seriessplit = langsplit[1].split('from the series')
+        # ProcessEnglishTitles()
+        # ProcessEnglishSeries()
 
 
 def LanguageNormalise(parent, element_header, value, delimiter):
 
-    seriessplit = []
-
-    field = element_header.replace(" ", "_")
-    if value.find(delimiter)>0:
-        #splitOnLanguage = value.split(delimiter)
-
-
-        multilang = value.split(delimiter)        #split the field into two titles
-
-        if str(langdetect.detect(multilang[1])) == 'en' and multilang[1].find('from the series') > -1:
-            seriessplit = multilang[1].split('from the series')
-            multilang[1] = seriessplit[0]
-
-            splitno = multilang[1].find('(')
-            if splitno > -1:
-                roman = multilang[1].split('(')
-                multilang[1] = roman[0]
-                roman[1] = roman[1][:-3]
-                multilang.append(roman[1])
-
-            splitno = multilang[0].find(u'\u3000')
-            if splitno > -1:
-                jpsplit = multilang[0].split(u'\u3000 ',1)
-                multilang[0] = jpsplit[0]
-                multilang.append(jpsplit[1])
+     ProcessTitleStrings(parent,element_header,value,delimiter)
 
 
 
-        for i in range(0,len(multilang)):
-            globals()[field + str(i)] = ET.SubElement(parent, field)
-            text = ET.SubElement(globals()[field + str(i)], 'text')
-            text.text = multilang[i]
-            text = ET.SubElement(globals()[field + str(i)], 'lang')
-            text.text = str(langdetect.detect(multilang[i]))
-
-
-        if len(seriessplit) > 1:
-            series = seriessplit[1]
-            twoseries = series.split('(')
-            if len(jpsplit[1]) > 0:
-                twoseries.append(jpsplit[1])
-            for i in range(0, len(twoseries)):
-                globals()[field + str(i)] = ET.SubElement(parent,'series_title')
-                text = ET.SubElement(globals()[field + str(i)], 'text')
-                if str(twoseries[i]).find(')') > -1:
-                    text.text = twoseries[i][:-2]
-                else:
-                    text.text = twoseries[i]
-
-                text = ET.SubElement(globals()[field + str(i)], 'lang')
-                if str(twoseries[i]).find(')') > -1:
-                    text.text = str(langdetect.detect(twoseries[i]))
-                #print(twoseries[i][:-5])
-                else:
-                    text.text = str(langdetect.detect(twoseries[i]))
-
-
-
-
-
-    return ()
 
 
 #########################LanguageNormalise - take some text and determine the unicode language code####
