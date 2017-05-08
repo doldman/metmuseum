@@ -421,6 +421,38 @@ def DimensionNormalise(parent, element_header, value):
 
 #########################LanguageNormalise - take some text and determine the unicode language code####
 
+def ProcessJapanese(title):
+    if title.find(u'\u3000') > -1:
+        mysplit = title.split('\u3000')
+        return mysplit
+
+def ProcessEnglishTitles:
+
+
+def ProcessRomanTitle
+
+
+def ProcessEnlishSeries:
+
+
+def ProcessRomanSeries:
+
+
+def ProcessTitle(parent, element_header, value, delimiter):
+
+    langsplit = []
+    seriessplit = []
+    field = element_header.replace(" ", "_")
+    if value.find(delimiter) > 0:
+        langsplit = value.split('|')
+        ProcessJapanese(langsplit[0])
+
+        seriessplit = langsplit[1].split('from the series')
+        ProcessEnglishTitles()
+        ProcessEnlishSeries()
+
+
+
 def LanguageNormalise(parent, element_header, value, delimiter):
 
     seriessplit = []
@@ -437,11 +469,18 @@ def LanguageNormalise(parent, element_header, value, delimiter):
             multilang[1] = seriessplit[0]
 
             splitno = multilang[1].find('(')
-            if splitno > 0:
+            if splitno > -1:
                 roman = multilang[1].split('(')
                 multilang[1] = roman[0]
                 roman[1] = roman[1][:-3]
                 multilang.append(roman[1])
+
+            splitno = multilang[0].find(u'\u3000')
+            if splitno > -1:
+                jpsplit = multilang[0].split(u'\u3000 ',1)
+                multilang[0] = jpsplit[0]
+                multilang.append(jpsplit[1])
+
 
 
         for i in range(0,len(multilang)):
@@ -455,6 +494,8 @@ def LanguageNormalise(parent, element_header, value, delimiter):
         if len(seriessplit) > 1:
             series = seriessplit[1]
             twoseries = series.split('(')
+            if len(jpsplit[1]) > 0:
+                twoseries.append(jpsplit[1])
             for i in range(0, len(twoseries)):
                 globals()[field + str(i)] = ET.SubElement(parent,'series_title')
                 text = ET.SubElement(globals()[field + str(i)], 'text')
@@ -469,6 +510,11 @@ def LanguageNormalise(parent, element_header, value, delimiter):
                 #print(twoseries[i][:-5])
                 else:
                     text.text = str(langdetect.detect(twoseries[i]))
+
+
+
+
+
     return ()
 
 
