@@ -431,7 +431,7 @@ def ProcessJapanese(parent, header, titles):
 
     splittitle = []
     if titles.find(u'\u3000') > -1:
-        splittitle = titles.split('\u3000')
+        splittitle = titles.rsplit('\u3000',1)
         jptitles = ET.SubElement(parent,'Titles')
         jptitle = ET.SubElement(jptitles,'title')
         jptitle.text = splittitle[0]
