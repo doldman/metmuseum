@@ -63,7 +63,7 @@ for row in myreader:
     #print('row: ' + str(rowcount) )
     for i in range(0,columns):
 
-        print(rowcount)
+        #print(rowcount)
 
         if normalise.isFieldforDateNormalisation(header[i]) == True:
             #print(header[i], row[i])
@@ -90,7 +90,8 @@ for row in myreader:
         if row[i] == "Katsushika Hokusai":
             normalise.AddExternalURIs(globals()['metDoc' + str(rowcount)],'1820',row[i],"Person","BM")
 
-
+        #myxml = ET.tostring(met, pretty_print=True, method='xml', encoding='unicode')
+        #print(BeautifulSoup(myxml, "xml").prettify())
 
 myxml = ET.tostring(met,pretty_print=True,method='xml',encoding='unicode')
-print(BeautifulSoup(myxml, "xml").prettify(),file=w)
+print(myxml,file=w)
