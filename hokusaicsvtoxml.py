@@ -88,9 +88,18 @@ for row in myreader:
 
             myfield = normalise.AddValueasXML(globals()['metDoc' + str(rowcount)],header[i],row[i])
 
-        if row[i] == "Katsushika Hokusai":
-            normalise.AddExternalURIs(globals()['metDoc' + str(rowcount)],'1820',row[i],"Person","BM")
 
-
+print(normalise.actorlist)
 myxml = ET.tostring(met,pretty_print=True,method='xml',encoding='unicode')
 print(myxml,file=w)
+
+
+elect ?name ?label where
+
+{
+?name skos:inScheme <http://collection.britishmuseum.org/id/person-institution>
+filter(regex(str(?label),'Naozane','i'))
+}
+
+limit 2
+#'Kumagai Naozane', 'Senseki', 'Tani Bunchō', 'Utagawa Hiroshige', 'Hokusai School', 'Chōbunsai Eishi', 'Rokuzotei', 'Nagasawa Kosai', 'Hasegawa Settan', 'Kitao Shigemasa', 'Kuwagata Keisai', 'Sakai Hōitsu', 'Ōnishi Chinnen', 'Kitagawa Utamaro', 'Rekisentei Eiri

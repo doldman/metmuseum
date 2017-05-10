@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 import nltk
 import pandas
 
+
+actorlist = []
+
 ################  Check against a list of fields for which date normalisation is needed. #########################
 
 def isFieldforDateNormalisation(field):
@@ -584,9 +587,18 @@ def ActorNamesNormalise(parent,actor):
     for person in people:
         myActor = ET.SubElement(myActors, 'Actor')
         myActor.text = person
+        #if actor == 'Katsushika Hokusai':
+        #    myBMlink = ET.SubElement(myActors,'britishmuseumid')
+        #    myBMlink.text = '1820'
 
-    myxml = ET.tostring(myActors, pretty_print=True, method='xml', encoding='unicode')
-    print(myxml)
+        if person not in actorlist:
+                actorlist.append(person)
+
+
+
+
+    #myxml = ET.tostring(myActors, pretty_print=True, method='xml', encoding='unicode')
+    #print(myxml)
 
 
 
@@ -609,16 +621,6 @@ def LanguageNormalise(parent, element_header, value, delimiter):
 
 #########################LanguageNormalise - take some text and determine the unicode language code####
 
-def AddExternalURIs(parent,id,label,type,org):
-    link = ET.SubElement(parent, 'link')
-    sublink = ET.SubElement(link, 'type')
-    sublink.text = type
-    subid = ET.SubElement(link, 'id')
-    subid.text = id
-    subid = ET.SubElement(link, 'organisation')
-    subid.text = org
-
-    return()
 
 
 def AddValueasXML(parent, element_header, value):
