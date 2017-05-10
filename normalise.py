@@ -166,8 +166,8 @@ def DateNormalise(parent, element_header, value):
 
 
 
-    else:
-        print('miss: ' + element_header + ' ' + value)
+    #else:
+        #print('miss: ' + element_header + ' ' + value)
 
 
 def CreateDimensions(dvalue,dunit,dtype,prefix=''):
@@ -420,8 +420,8 @@ def DimensionNormalise(parent, element_header, value):
         #
 
 
-    else:
-        print('missed dimension: ' + value)
+    #else:
+       # print('missed dimension: ' + value)
 
 
 
@@ -460,7 +460,7 @@ def ProcessTitle(parent, title, language, type):
     engtitle.text = title
     titlelang = ET.SubElement(engtitles, 'Language')
     titlelang.text = language
-    print(title + " : " + language + " : " + type)
+    #print(title + " : " + language + " : " + type)
 
 
 def ProcessTitleStrings(parent, element_header, value, delimiter):
@@ -579,11 +579,14 @@ def ActorNamesNormalise(parent,actor):
     else:
         people.append(actor)
 
+
+    myActors = ET.SubElement(parent, 'Actors')
     for person in people:
-        myActors = ET.SubElement(parent, 'Actors')
         myActor = ET.SubElement(myActors, 'Actor')
         myActor.text = person
 
+    myxml = ET.tostring(myActors, pretty_print=True, method='xml', encoding='unicode')
+    print(myxml)
 
 
 
@@ -591,7 +594,7 @@ def ActorNamesNormalise(parent,actor):
 
 
 
-    # seriessplit = langsplit[1].split('from the series')
+        # seriessplit = langsplit[1].split('from the series')
         # ProcessEnglishTitles()
         # ProcessEnglishSeries()
 

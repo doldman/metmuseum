@@ -81,6 +81,7 @@ for row in myreader:
             normalise.typetechniqueNormalise(globals()['metDoc' + str(rowcount)],header[i],row[i])
         elif normalise.isFieldforActorName(header[i]) == True:
             normalise.ActorNamesNormalise(globals()['metDoc' + str(rowcount)],row[i])
+
         else:
             #print(row)
             #print('column: ' + str(i) + header[i])
@@ -90,8 +91,6 @@ for row in myreader:
         if row[i] == "Katsushika Hokusai":
             normalise.AddExternalURIs(globals()['metDoc' + str(rowcount)],'1820',row[i],"Person","BM")
 
-        #myxml = ET.tostring(met, pretty_print=True, method='xml', encoding='unicode')
-        #print(BeautifulSoup(myxml, "xml").prettify())
 
 myxml = ET.tostring(met,pretty_print=True,method='xml',encoding='unicode')
 print(myxml,file=w)
