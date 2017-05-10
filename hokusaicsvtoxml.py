@@ -94,12 +94,12 @@ myxml = ET.tostring(met,pretty_print=True,method='xml',encoding='unicode')
 print(myxml,file=w)
 
 
-elect ?name ?label where
-
-{
-?name skos:inScheme <http://collection.britishmuseum.org/id/person-institution>
-filter(regex(str(?label),'Naozane','i'))
-}
-
-limit 2
-#'Kumagai Naozane', 'Senseki', 'Tani Bunchō', 'Utagawa Hiroshige', 'Hokusai School', 'Chōbunsai Eishi', 'Rokuzotei', 'Nagasawa Kosai', 'Hasegawa Settan', 'Kitao Shigemasa', 'Kuwagata Keisai', 'Sakai Hōitsu', 'Ōnishi Chinnen', 'Kitagawa Utamaro', 'Rekisentei Eiri
+# select ?name ?label where
+#
+# {
+# ?name skos:inScheme <http://collection.britishmuseum.org/id/person-institution>
+# filter(regex(str(?label),'Naozane','i'))
+# }
+#
+# limit 2
+# #'Kumagai Naozane', 'Senseki', 'Tani Bunchō', 'Utagawa Hiroshige', 'Hokusai School', 'Chōbunsai Eishi', 'Rokuzotei', 'Nagasawa Kosai', 'Hasegawa Settan', 'Kitao Shigemasa', 'Kuwagata Keisai', 'Sakai Hōitsu', 'Ōnishi Chinnen', 'Kitagawa Utamaro', 'Rekisentei Eiri
