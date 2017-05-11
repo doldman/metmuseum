@@ -442,7 +442,7 @@ def ProcessJapanese(parent, header, titles):
         jplanguage.text = 'ja'
 
         jpseries = ET.SubElement(parent,'Titles')
-        jpserial = ET.SubElement(jpseries,'serialtitle')
+        jpserial = ET.SubElement(jpseries,'serial')
         jpserial.text = splittitle[0]
         jplanguage = ET.SubElement(jpseries, 'Language')
         jplanguage.text = 'ja'
@@ -492,22 +492,22 @@ def ProcessTitleStrings(parent, element_header, value, delimiter):
                 engTitle = engtitles[0:startRoman]
                 romanTitle = engtitles[startRoman+1:endRoman]
                 additionaltext = engtitles[endRoman + 1:]
-                ProcessTitle(parent,engTitle + " " + additionaltext,'en','Title')
-                ProcessTitle(parent, romanTitle,'ja-Latn','Title')
+                ProcessTitle(parent,engTitle + " " + additionaltext,'en','title')
+                ProcessTitle(parent, romanTitle,'ja-Latn','title')
 
             else:
-                ProcessTitle(parent,engtitles,'en','Title')
+                ProcessTitle(parent,engtitles,'en','title')
 
             if engseries.find('(') > -1:
                 startRoman = engseries.find('(')
                 endRoman = engseries.find(')')
                 engSerial = engseries[0:startRoman]
                 romanSerial = engseries[startRoman+1:endRoman]
-                ProcessTitle(parent,engSerial,'en','Serial')
-                ProcessTitle(parent, romanSerial,'rn','Serial')
+                ProcessTitle(parent,engSerial,'en','serial')
+                ProcessTitle(parent, romanSerial,'ja-Latn','serial')
 
             else:
-                ProcessTitle(parent, engseries,'en','Serial')
+                ProcessTitle(parent, engseries,'en','serial')
 
         else:
                 if englishtitles.find('(') > -1:
@@ -515,10 +515,10 @@ def ProcessTitleStrings(parent, element_header, value, delimiter):
                     endRoman = englishtitles.find(')')
                     engTitle = englishtitles[0:startRoman]
                     romanTitle = englishtitles[startRoman+1:endRoman]
-                    ProcessTitle(parent, engTitle,'en','Title')
-                    ProcessTitle(parent, romanTitle, 'rn', 'Title')
+                    ProcessTitle(parent, engTitle,'en','title')
+                    ProcessTitle(parent, romanTitle, 'ja-Latn', 'title')
                 else:
-                    ProcessTitle(parent, englishtitles, 'en', 'Title')
+                    ProcessTitle(parent, englishtitles, 'en', 'title')
     else:
 
         if value.find('(') > -1:
@@ -526,8 +526,8 @@ def ProcessTitleStrings(parent, element_header, value, delimiter):
             endRoman = value.find(')')
             myTitle = englishtitles[0 - startRoman]
             myromanTitle = englishtitles[startRoman - endRoman]
-            ProcessTitle(parent, engTitle, 'en', 'Title')
-            ProcessTitle(parent, romanTitle, 'rn', 'Title')
+            ProcessTitle(parent, engTitle, 'en', 'title')
+            ProcessTitle(parent, romanTitle, 'ja-Latn', 'title')
 
         else:
             if langdetect.detect(value) == 'ja':
