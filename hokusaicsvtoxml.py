@@ -105,4 +105,4 @@ print(myxml,file=w)
 # #'
 #
 #
-#actors = {'Q5586':'Katsushika Hokusai', 'Q3335867':'Kumagai Naozane', 'Q6531605':'Takami Senseki', 'Q1375891':'Tani Bunchō', 'Q200798':'Utagawa Hiroshige', '0':'Hokusai School', 'Q2972127':'Chōbunsai Eishi', '0':'Rokuzotei', '0':'Nagasawa Kosai', 'Q3128079':'Hasegawa Settan', 'Q3074364':'Kitao Shigemasa', 'Q3197564':'Kuwagata Keisai', 'Q3469342':'Sakai Hōitsu', 'Q11438881':'Ōnishi Chinnen', 'Q272045':'Kitagawa Utamaro', 'Q11675017':'Rekisentei Eiri'}
+#actors = {'Katsushika Hokusai':'Q5586', 'Kumagai Naozane':'Q3335867','Takami Senseki':'Q6531605', 'Tani Bunchō':'Q1375891', 'Utagawa Hiroshige':'Q200798', 'Hokusai School':'0', 'Chōbunsai Eishi':'Q2972127', 'Rokuzotei':'0', 'Nagasawa Kosai':'0', 'Hasegawa Settan':'Q3128079', 'Kitao Shigemasa':'Q3074364', 'Kuwagata Keisai':'Q3197564', 'Sakai Hōitsu':'Q3469342', 'Ōnishi Chinnen':'Q11438881', 'Kitagawa Utamaro':'Q272045', 'Rekisentei Eiri':'Q11675017'}

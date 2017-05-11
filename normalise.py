@@ -437,13 +437,13 @@ def ProcessJapanese(parent, header, titles):
         splittitle = titles.rsplit('\u3000',1)
         jptitles = ET.SubElement(parent,'Titles')
         jptitle = ET.SubElement(jptitles,'title')
-        jptitle.text = splittitle[0]
+        jptitle.text = splittitle[1]
         jplanguage = ET.SubElement(jptitles,'Language')
         jplanguage.text = 'ja'
 
         jpseries = ET.SubElement(parent,'Titles')
         jpserial = ET.SubElement(jpseries,'serialtitle')
-        jpserial.text = splittitle[1]
+        jpserial.text = splittitle[0]
         jplanguage = ET.SubElement(jpseries, 'Language')
         jplanguage.text = 'ja'
 
@@ -493,7 +493,7 @@ def ProcessTitleStrings(parent, element_header, value, delimiter):
                 romanTitle = engtitles[startRoman+1:endRoman]
                 additionaltext = engtitles[endRoman + 1:]
                 ProcessTitle(parent,engTitle + " " + additionaltext,'en','Title')
-                ProcessTitle(parent, romanTitle,'rm','Title')
+                ProcessTitle(parent, romanTitle,'ja-Latn','Title')
 
             else:
                 ProcessTitle(parent,engtitles,'en','Title')
