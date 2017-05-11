@@ -40,6 +40,14 @@ def isFieldforDimensionNormalisation(field):
     else:
         return False
 
+#####################################################################################################################
+
+def ConvertAttributestoTags:
+
+
+
+
+
 ###############################  Seperation of fields with delimited language versions  ####################
 
 
