@@ -42,8 +42,15 @@ def isFieldforDimensionNormalisation(field):
 
 #####################################################################################################################
 
-def ConvertAttributestoTags:
+def ConvertAttributestoTags():
 
+
+
+    root = ET.XML(r'<main><dimension h="2" w="3">hjhjj</dimension></main>')
+
+    find = ET.XPath('//dimension/@h')
+
+    print(find(root)[0].text)
 
 
 

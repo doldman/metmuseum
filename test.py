@@ -3,13 +3,20 @@ import lxml
 import nltk
 
 
-from lxml import etree as ET
 
-root = ET.Element('root')
+normalise.ConvertAttributestoTags()
 
-normalise.ProcessTitleStrings(root,'title','衣食住|Attire','|')
 
-print(ET.tostring(root,pretty_print=True,method='xml',encoding='unicode'))
+
+
+
+# from lxml import etree as ET
+#
+# root = ET.Element('root')
+#
+# normalise.ProcessTitleStrings(root,'title','衣食住|Attire','|')
+#
+# print(ET.tostring(root,pretty_print=True,method='xml',encoding='unicode'))
 
 
 
